@@ -113,8 +113,6 @@
 <body>
 <nav id="TOC" role="doc-toc">
 <ul>
-<li><a href="#declaration-on-oath"
-id="toc-declaration-on-oath">Declaration On Oath</a></li>
 <li><a href="#abstract" id="toc-abstract">Abstract</a></li>
 <li><a href="#introduction" id="toc-introduction">Introduction</a>
 <ul>
@@ -128,22 +126,7 @@ Theoretical Basis</a>
 <ul>
 <li><a href="#validating-the-necessity-for-a-novel-approach"
 id="toc-validating-the-necessity-for-a-novel-approach">Validating the
-Necessity for a Novel Approach</a>
-<ul>
-<li><a href="#part-zero-non-existent-solutions"
-id="toc-part-zero-non-existent-solutions">Part Zero: Non-existent
-Solutions</a></li>
-<li><a href="#part-one-elusive-establishment"
-id="toc-part-one-elusive-establishment">Part One: Elusive
-Establishment</a></li>
-<li><a href="#part-two-inconclusive-approaches"
-id="toc-part-two-inconclusive-approaches">Part Two: Inconclusive
-Approaches</a></li>
-<li><a href="#part-three-non-triviality"
-id="toc-part-three-non-triviality">Part Three: Non-Triviality</a></li>
-<li><a href="#concluding-remarks" id="toc-concluding-remarks">Concluding
-Remarks</a></li>
-</ul></li>
+Necessity for a Novel Approach</a></li>
 <li><a href="#end-of-support-dependencies"
 id="toc-end-of-support-dependencies">End-of-support
 Dependencies</a></li>
@@ -164,16 +147,7 @@ Analysis</a>
 <ul>
 <li><a href="#gc-and-uc" id="toc-gc-and-uc">General Conditions and Use
 Cases</a></li>
-<li><a href="#requirements-1" id="toc-requirements-1">Requirements</a>
-<ul>
-<li><a href="#proj-ind" id="toc-proj-ind">Project Independence</a></li>
-<li><a href="#data-ind" id="toc-data-ind">Data Independence</a></li>
-<li><a href="#expandability"
-id="toc-expandability">Expandability</a></li>
-<li><a href="#integrability"
-id="toc-integrability">Integrability</a></li>
-<li><a href="#out-of-scope" id="toc-out-of-scope">Out Of Scope</a></li>
-</ul></li>
+<li><a href="#requirements-1" id="toc-requirements-1">Requirements</a></li>
 </ul></li>
 <li><a href="#technical-conception"
 id="toc-technical-conception"><em>deprec</em> | Technical Conception</a>
@@ -188,13 +162,7 @@ id="toc-leveraging-cyclonedx-sboms">Leveraging CycloneDX SBOMs</a></li>
 </ul></li>
 <li><a href="#extraction" id="toc-extraction">Extracting Data</a></li>
 <li><a href="#data-model" id="toc-data-model">Data Model as Abstraction
-Layer</a>
-<ul>
-<li><a href="#structural-design" id="toc-structural-design">Structural
-Design</a></li>
-<li><a href="#detailing-fields" id="toc-detailing-fields">Detailing
-Fields</a></li>
-</ul></li>
+Layer</a></li>
 <li><a href="#integrating-framework"
 id="toc-integrating-framework">Integrating the <em>EOS Abstraction
 Framework</em></a>
@@ -214,27 +182,11 @@ id="toc-combining-eos-factors">Combining <em>EOS Factors</em></a></li>
 <li><a href="#drawing-conclusions" id="toc-drawing-conclusions">Drawing
 Conclusions</a></li>
 </ul></li>
-<li><a href="#agent" id="toc-agent">Agent-based Processing</a>
-<ul>
-<li><a href="#top-level-view" id="toc-top-level-view">Top-Level
-View</a></li>
-</ul></li>
+<li><a href="#agent" id="toc-agent">Agent-based Processing</a></li>
 </ul></li>
 <li><a href="#impl" id="toc-impl">Implementation</a>
 <ul>
-<li><a href="#impl-gc" id="toc-impl-gc">Specific Conditions</a>
-<ul>
-<li><a href="#development-environment"
-id="toc-development-environment">Development Environment</a></li>
-<li><a href="#github-repositories" id="toc-github-repositories">GitHub
-Repositories</a></li>
-<li><a href="#maven-ecosystem" id="toc-maven-ecosystem">Maven
-Ecosystem</a></li>
-<li><a href="#continuous-integration"
-id="toc-continuous-integration">Continuous Integration</a></li>
-<li><a href="#4-cat" id="toc-4-cat"><em>Points</em> Distribution
-Categories</a></li>
-</ul></li>
+<li><a href="#impl-gc" id="toc-impl-gc">Specific Conditions</a></li>
 <li><a href="#extraction-phase" id="toc-extraction-phase">Extraction
 Phase</a>
 <ul>
@@ -243,11 +195,7 @@ APIs</a></li>
 <li><a href="#caching-api-responses"
 id="toc-caching-api-responses">Caching API Responses</a></li>
 </ul></li>
-<li><a href="#cores" id="toc-cores"><em>Cores</em> Data Structure</a>
-<ul>
-<li><a href="#normalizing-overtake"
-id="toc-normalizing-overtake">Normalizing <em>overtake</em></a></li>
-</ul></li>
+<li><a href="#cores" id="toc-cores"><em>Cores</em> Data Structure</a></li>
 <li><a href="#selected-statements-and-eos-factors"
 id="toc-selected-statements-and-eos-factors">Selected
 <em>Statements</em> and <em>EOS Factors</em></a>
@@ -272,15 +220,7 @@ id="toc-deprec-interface"><em>Deprec</em>: Interface</a></li>
 <li><a href="#deprec-as-cli-tool"
 id="toc-deprec-as-cli-tool"><em>Deprec</em> as CLI Tool</a></li>
 </ul></li>
-<li><a href="#limitations" id="toc-limitations">Limitations</a>
-<ul>
-<li><a href="#github-api-rate-limits"
-id="toc-github-api-rate-limits">GitHub API Rate Limits</a></li>
-<li><a href="#maven-central" id="toc-maven-central">Maven
-Central</a></li>
-<li><a href="#cyclonedx-sbom-limitations"
-id="toc-cyclonedx-sbom-limitations">CycloneDX SBOM Limitations</a></li>
-</ul></li>
+<li><a href="#limitations" id="toc-limitations">Limitations</a></li>
 </ul></li>
 <li><a href="#evaluation" id="toc-evaluation">Evaluation</a>
 <ul>
@@ -300,27 +240,24 @@ id="toc-identifying-the-importance-of-combination">Identifying the
 Importance of Combination</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#conclusion" id="toc-conclusion">Conclusion</a>
-<ul>
-<li><a href="#further-work" id="toc-further-work">Further Work</a>
-<ul>
-<li><a href="#research-into-weighting"
-id="toc-research-into-weighting">Research into Weighting</a></li>
-<li><a href="#extending-deprecs-implementation"
-id="toc-extending-deprecs-implementation">Extending <em>deprec</em>’s
-implementation</a></li>
-<li><a href="#deprec-as-service"
-id="toc-deprec-as-service"><em>Deprec</em> as Service</a></li>
+<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
 </ul></li>
-</ul></li>
-<li><a href="#appendix:data-model"
+<li><a href="#lof"
+id="toc-lof">List Of Figures</a></li>
+<li><a href="#lol"
+id="toc-lol">List Of Listings</a></li>
+<li><a href="#lot"
+id="toc-lot">List Of Tables</a></li>
+<li><a href="#bibliography"
+id="toc-bibliography">Bibliography</a></li>
+<li>A <a href="#appendix:data-model"
 id="toc-appendix:data-model"><em>Deprec</em> Data Model</a></li>
-<li><a href="#appendix:deprec-config"
+<li>B <a href="#appendix:deprec-config"
 id="toc-appendix:deprec-config"><em>Deprec</em> Configuration</a></li>
-<li><a href="#appendix:gitlab-integration"
+<li>C <a href="#appendix:gitlab-integration"
 id="toc-appendix:gitlab-integration"><em>Deprec</em> GitLab CI
 Integration</a></li>
-<li><a href="#appendix:deprec_accuracy_statements"
+<li>D <a href="#appendix:deprec_accuracy_statements"
 id="toc-appendix:deprec_accuracy_statements"><em>Deprec</em> Accuracy
 Evaluation on <em>Statement</em> Level</a></li>
 </ul>
@@ -333,7 +270,7 @@ Evaluation on <em>Statement</em> Level</a></li>
 end-of-support dependencies</strong></p>
 <hr />
 <p><em>Author</em><br />
-<strong>Antonino Grasso (----)</strong></p>
+<strong>Antonino Grasso (11660119)</strong></p>
 <p><em>Supervisor</em><br />
 <strong>Prof. Dr. Johannes Ebke</strong></p>
 <p>Munich, March 2 2023<br />
@@ -341,31 +278,11 @@ end-of-support dependencies</strong></p>
 <p>Hochschule München University of Applied Sciences<br />
 Department of computer science and mathematics</p>
 <p>Device Insight GmbH</p>
-<p><img src="logos/university.png" style="width:50.0%;height:2cm"
-alt="image" /> <img src="logos/company.png"
-style="width:50.0%;height:2cm" alt="image" /></p>
+<p><img src="images/logos/university.png" style="width:50.0%;height:2cm"
+alt="image" /> <img src="images/logos/company.png" style="width:50.0%;height:2cm"
+alt="image" /></p>
 </div>
 </div>
-<h1 class="unnumbered" id="declaration-on-oath">Declaration On Oath</h1>
-<p>I hereby declare that I have written the bachelor thesis
-independently, have not submitted it elsewhere for examination purposes,
-have not used any sources or aids other than those indicated, and have
-marked literal and analogous quotations as such.</p>
-<hr />
-<p><br />
-Surname, name</p>
-<hr />
-<p><br />
-Location, date</p>
-<hr />
-<p><br />
-Date of birth</p>
-<hr />
-<p><br />
-Studygroup / WS / SS</p>
-<hr />
-<p><br />
-Signature</p>
 <h1 class="unnumbered" id="abstract">Abstract</h1>
 <p>End-of-support dependencies within software development facilitate
 risk and expense for development teams and project management. Within
@@ -691,9 +608,9 @@ not handled nor fixed.</p>
 software, rather the result of it. In the process of decommissioning
 open-source software, similar predicates can be used to describe
 different characteristics of an open-source software project soon to be
-decommissioned. <a href="#fig:eox-funnel" data-reference-type="autoref"
-data-reference="fig:eox-funnel">[fig:eox-funnel]</a> depicts the
-differentiation of end-of-support from other similar predicates:</p>
+decommissioned. Figure <a href="#fig:eox-funnel" data-reference-type="ref"
+data-reference="fig:eox-funnel">2.1</a> depicts the differentiation of
+end-of-support from other similar predicates:</p>
 <h4 class="unnumbered"
 id="end-of-development-service-maintenance">End-Of-Development/-Service/-Maintenance</h4>
 <p>These terms define that either, in sequence from left to right, use
@@ -753,7 +670,7 @@ sufficient, voiding the need of further assessing if the given
 dependency also is considered as end-of-life.</p>
 <figure id="fig:eox-funnel">
 <img src="images/eox-funnel.drawio.png" style="width:70.0%" />
-<figcaption>Figure 1: End-Of-X Funnel</figcaption>
+<figcaption>Figure 2.1: End-Of-X Funnel</figcaption>
 </figure>
 <h2 id="classifying-dependencies-as-end-of-support">Classifying
 Dependencies as End-of-support</h2>
@@ -775,18 +692,18 @@ information was collected for the theoretical concept that would serve
 as the information base for classifying dependencies as end-of-support.
 The literature reviewed, fundamentally covered the following topics:
 open-source software, open-source dependencies, dependency management
-and development insights. With guiding questions written down in <a
-href="#fig:guiding_questions" data-reference-type="autoref"
-data-reference="fig:guiding_questions">[fig:guiding_questions]</a>,
-existing interviews and surveys, qualitative and quantitative research,
-and empirical evaluations were consulted. To be noted, ’library’ used in
-referenced literature is to be equated with ’dependency’.</p>
+and development insights. With guiding questions written down in Figure <a
+href="#fig:guiding_questions" data-reference-type="ref"
+data-reference="fig:guiding_questions">2.2</a>, existing interviews and
+surveys, qualitative and quantitative research, and empirical
+evaluations were consulted. To be noted, ’library’ used in referenced
+literature is to be equated with ’dependency’.</p>
 <figure id="fig:guiding_questions">
 <p>D1. How do developers choose a library?<br />
 —<br />
 R1. What determines the survival and sustainability of libraries?<br />
 </p>
-<figcaption>Figure 2: Guiding Questions; D=developer-related;
+<figcaption>Figure 2.2: Guiding Questions; D=developer-related;
 R=repository-related</figcaption>
 </figure>
 <h4 class="unnumbered" id="sec:d1">Answering D1: How do developers
@@ -1020,12 +937,12 @@ and support. All in all, a libraries’ repository starts it, but the
 libraries’ community keeps it going.</p>
 <h4 id="categorizing-information">Categorizing Information</h4>
 <p>To provide an overview of information derived from consulting
-literature about leading questions <em>D1</em> and <em>R1</em>, <a
-href="#fig:info-landscape" data-reference-type="autoref"
-data-reference="fig:info-landscape">[fig:info-landscape]</a> depicts an
-informational landscape that can be considered for the evaluation of
-dependencies as end-of-support. In it are domains of information
-sectioned where information can be categorized to.</p>
+literature about leading questions <em>D1</em> and <em>R1</em>, Figure <a
+href="#fig:info-landscape" data-reference-type="ref"
+data-reference="fig:info-landscape">2.3</a> depicts an informational
+landscape that can be considered for the evaluation of dependencies as
+end-of-support. In it are domains of information sectioned where
+information can be categorized to.</p>
 <h5 id="ecosystem">Ecosystem</h5>
 <p>includes information about the dependencies’ ecosystem, such as a
 ranking<a href="#fn15" class="footnote-ref" id="fnref15"
@@ -1057,7 +974,7 @@ available.</p>
 <figure id="fig:info-landscape">
 <img src="images/information-landscape-v2.drawio.png"
 style="width:65.0%" />
-<figcaption>Figure 3: Information Landscape of Dependencies by
+<figcaption>Figure 2.3: Information Landscape of Dependencies by
 Categories</figcaption>
 </figure>
 <h4 id="characterizing-informational-value">Characterizing Informational
@@ -1103,31 +1020,30 @@ popularity of a library.</p>
 <h3 id="sec:statements">Abstracting Information into
 <em>Statements</em></h3>
 <p>In the attempt to develop a comprehensible and approachable
-theoretical concept, the use of information collected in <a
-href="#sec:def-information" data-reference-type="autoref"
-data-reference="sec:def-information">[sec:def-information]</a> in its
-present form turned out to be too complex and fine-grained to deal with.
-It was not reasonably possible to combine said information and weight it
-against each other to classify dependencies as end-of-support.</p>
+theoretical concept, the use of information collected in section <a
+href="#sec:def-information" data-reference-type="ref"
+data-reference="sec:def-information">2.3.1</a> in its present form
+turned out to be too complex and fine-grained to deal with. It was not
+reasonably possible to combine said information and weight it against
+each other to classify dependencies as end-of-support.</p>
 <p>Since developing a theoretical construct with information that is too
 fine-grained would not be flexible enough for practice, an approach to
-map the information landscape built in <a href="#sec:def-information"
-data-reference-type="autoref"
-data-reference="sec:def-information">[sec:def-information]</a> into more
-manageable plots was considered. Therefore, this section proposes the
-approach of abstracting the information in <a
-href="#sec:def-information" data-reference-type="autoref"
-data-reference="sec:def-information">[sec:def-information]</a> into
+map the information landscape built in section <a href="#sec:def-information"
+data-reference-type="ref" data-reference="sec:def-information">2.3.1</a>
+into more manageable plots was considered. Therefore, this section
+proposes the approach of abstracting the information in section <a
+href="#sec:def-information" data-reference-type="ref"
+data-reference="sec:def-information">2.3.1</a> into
 <em>Statements</em>.</p>
 <h5 id="statements">Statements</h5>
 <p>as used in this work, are an initial abstraction mapping that shapes
 information to facilitate handling, combination and trade-off in
 classifying dependencies as end-of-support.</p>
 <p>The following are <em>Statements</em> and their detailed composition
-to be used in classifying dependencies as end-of-support, derived from
-<a href="#sec:def-information" data-reference-type="autoref"
-data-reference="sec:def-information">[sec:def-information]</a> and
-utilizing information and insights therein:</p>
+to be used in classifying dependencies as end-of-support, derived from section
+<a href="#sec:def-information" data-reference-type="ref"
+data-reference="sec:def-information">2.3.1</a> and utilizing information
+and insights therein:</p>
 <h6 id="project-quality">Project Quality</h6>
 <p>gives measures whether a dependencies project follows common
 open-source practices such as providing a README or LICENSE file,
@@ -1278,7 +1194,7 @@ no longer maintained and support from its original developers is
 lost.</p>
 <h3 id="eos-afs">The <em>EOS Abstraction Framework</em> and <em>EOS
 Factors</em></h3>
-<p><em>Statements</em>, introduced in <a href="#sec:statements"
+<p><em>Statements</em>, introduced in section <a href="#sec:statements"
 data-reference-type="ref" data-reference="sec:statements">2.3.2</a>,
 enable the theoretical concept of classifying dependencies as
 end-of-support to be based on more abstract and constant information.
@@ -1288,7 +1204,7 @@ end-of-support, proposed in this work as <em>EOS Factors</em>, leverages
 the theoretical concept into a more comprehensive and approachable one.
 Finally, the framework for classifying dependencies as end-of-support
 referenced in this work as <em>EOS Abstraction Framework</em> is
-proposed as the core of <a href="#theoretic-basis"
+proposed as the core of chapter <a href="#theoretic-basis"
 data-reference-type="ref" data-reference="theoretic-basis">2</a>. The
 <em>EOS Abstraction Framework</em> utilizes aforementioned <em>EOS
 Factors</em> and enables combination, trade-off, and conclusion of
@@ -1333,11 +1249,11 @@ end-of-support, which would void further assessment. Key
 <h5 id="the-eos-abstraction-framework">The EOS Abstraction
 Framework</h5>
 <p>functions as a framework within where <em>EOS Factors</em> can be
-used to classify dependencies as end-of-support. <a
-href="#fig:eos_abstr_framework" data-reference-type="autoref"
-data-reference="fig:eos_abstr_framework">[fig:eos_abstr_framework]</a>
-summarizes <em>Statements</em> and <em>EOS Factors</em> and sets them in
-relation to each other, depicting the domain of the framework. Further
+used to classify dependencies as end-of-support. Figure <a
+href="#fig:eos_abstr_framework" data-reference-type="ref"
+data-reference="fig:eos_abstr_framework">2.4</a> summarizes
+<em>Statements</em> and <em>EOS Factors</em> and sets them in relation
+to each other, depicting the domain of the framework. Further
 implementation based on it is open to modification of how individual
 <em>EOS Factors</em> are handled. Meaning by that, the <em>EOS
 Abstraction Framework</em> does not prescribe that, for example,
@@ -1350,7 +1266,7 @@ enforcing predefined rules or interrelationships not being able to
 adjust to different situations.</p>
 <figure id="fig:eos_abstr_framework">
 <img src="images/brain-final-lined.drawio.png" style="width:100.0%" />
-<figcaption>Figure 4: The EOS Abstraction Framework: Utilizing <em>EOS
+<figcaption>Figure 2.4: The EOS Abstraction Framework: Utilizing <em>EOS
 Factors</em></figcaption>
 </figure>
 <h1 id="requirements">Requirements Analysis</h1>
@@ -1400,7 +1316,7 @@ distinctly different dependencies in use. The overarching purpose of
 this requirement is to ensure agnosticism without demanding all kinds of
 dependencies being covered from the get go.</p>
 <h3 class="unnumbered" id="data-ind">Data Independence</h3>
-<p>Consequential to is the need for the software solution to be able to
+<p>Consequential to <a href="#proj-ind">Project Independence</a> is the need for the software solution to be able to
 work with information from differing origins. This requirement ensures
 that the software solution functions data origin agnostic. Since
 different projects utilize different dependencies, which in turn have
@@ -1427,7 +1343,7 @@ voided. As the software solution has to be able to work with altering
 and optional data origins, information fetched from said sources to be
 evaluated on either informational correctness or reliability is not
 demanded.</p>
-<p>Similar to , the overarching purpose of this requirement is to ensure
+<p>Similar to <a href="#proj-ind">Project Independence</a>, the overarching purpose of this requirement is to ensure
 data agnosticism without demanding to cover all kinds of dependency data
 origins from the get go.</p>
 <h3 class="unnumbered" id="expandability">Expandability</h3>
@@ -1440,7 +1356,7 @@ dependencies. For example, initially supporting dependencies from the
 Maven ecosystem, but being expandable to also support dependencies from
 the NPM ecosystem.</p>
 <h3 class="unnumbered" id="integrability">Integrability</h3>
-<p>The requirement of has the purpose to ensure that the software
+<p>The requirement of <a href="#integrability">Integrability</a> has the purpose to ensure that the software
 solution can be used under different premises. For example, to be used
 as a command line interface tool, or be provided as a service. Depending
 on the use case, having the possibility to choose how one integrates the
@@ -1454,7 +1370,7 @@ concept elaborated for the first time in this work. Given this
 circumstance, the software solution and its assessment of dependencies
 as end-of-support is more focused on feasibility and practicability.</p>
 <p>How successful and accurate dependencies were assessed takes on a
-secondary role. Therefore, the requirement of the software solution to
+secondary role. Therefore, the requirement of <a href="#out-of-scope">Out Of Scope</a> the software solution to
 guarantee correctness of the assessment to its users is not in the scope
 of this work. Nevertheless, evaluating the implementation against an
 evaluation set of dependencies is necessary to ensure that the proposed
@@ -1464,14 +1380,14 @@ Conception</h1>
 <p>This chapter goes in-depth about designing a software solution for
 automated project-based end-of-support dependency detection –
 <em>deprec</em>. Presented is its technical conception along with the
-utilization of the <em>EOS Abstraction Framework</em> proposed in <a
+utilization of the <em>EOS Abstraction Framework</em> proposed in chapter <a
 href="#theoretic-basis" data-reference-type="ref"
 data-reference="theoretic-basis">2</a>.</p>
 <h2 id="sboms">Working with Software Bills of Materials</h2>
 <p><em>Deprec</em> has to handle different dependencies with differing
 conditions. Be it what ecosystem they are developed for, or where and
 how they are distributed. To be able to work with various dependencies
-and to fulfill requirement , a common ground for dependencies was
+and to fulfill requirement <a href="#proj-ind">Project Independence</a>, a common ground for dependencies was
 needed. Software Bills of Materials (SBOMs) were chosen as input of
 <em>deprec</em>, to base the end-of-support dependency detection on.</p>
 <p>SBOMs<a href="#fn20" class="footnote-ref" id="fnref20"
@@ -1484,7 +1400,7 @@ dependencies (transitive dependencies).</p>
 <p>Further, SBOMs operate ecosystem, language and platform independent,
 suitable for <em>deprec</em>’s use case and functionality.
 Conceptualizing <em>deprec</em> on top of SBOMs as input offers built-in
-standardization and allows for achieving the requirement in full
+standardization and allows for achieving the <a href="#proj-ind">Project Independence</a> requirement in full
 length.</p>
 <h3 id="eligible standard">Eligible Standard</h3>
 <p>Since SBOMs in and of itself is solely a defined concept, different
@@ -1540,27 +1456,26 @@ artifacts. Moreover, officials and the community behind CycloneDX offer
 broad tooling to produce and consume CycloneDX SBOMs for different
 ecosystems.<br />
 To summarize, CycloneDX fits the use case better than SPDX does. The
-above stated requirements <strong></strong>, <strong></strong> and
-<strong></strong> are achieved to satisfaction with CycloneDX’s SBOM
+above stated requirements <strong>(i)</strong>, <strong>(ii)</strong> and
+<strong>(iii)</strong> are achieved to satisfaction with CycloneDX’s SBOM
 standard providing various identifiers, external references for more
 information, and its established official and community support offering
 various tooling.</p>
 <h3 id="leveraging-cyclonedx-sboms">Leveraging CycloneDX SBOMs</h3>
-<p>As a follow-up on the previous <a href="#eligible standard"
+<p>As a follow-up on the previous section <a href="#eligible standard"
 data-reference-type="ref" data-reference="eligible standard">4.1.1</a>,
 CycloneDX’s SBOM standard is looked at in more detail how it can be
 integrated into <em>deprec</em>. The main benefit of CycloneDX’s SBOMs,
 in the context of <em>deprec</em>, is its capability to summarize a
 project’s dependencies into identifiers that can then be leveraged into
 fetching more information from various data sources. CycloneDX SBOMs
-provide a variety of information, the example in <a
-href="#lst:sbom-component" data-reference-type="autoref"
-data-reference="lst:sbom-component">[lst:sbom-component]</a> shows a
+provide a variety of information, the example in Listing <a
+href="#lst:sbom-component" data-reference-type="ref"
+data-reference="lst:sbom-component">4.1</a> shows a
 dependency and its information provided.<br />
 </p>
 <div class="lstfloat">
 <div id="lst:sbom-component" class="listing json">
-<p>Listing lst:sbom-component: CycloneDX SBOM Component Information</p>
 <div class="sourceCode" id="cb1" data-language="json"
 data-frame="single" label="lst:sbom-component" data-captionpos="b"><pre
 class="sourceCode json"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
@@ -1574,19 +1489,24 @@ class="sourceCode json"><code class="sourceCode json"><span id="cb1-1"><a href="
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&quot;purl&quot;</span><span class="fu">:</span> <span class="st">&quot;pkg:maven/com.google.guava/guava@24.1.1-jre?type=jar&quot;</span><span class="fu">,</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&quot;externalReferences&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="er">...</span><span class="ot">]</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span></code></pre></div>
+<figcaption class='caption'><span class='id'>Listing 4.1:
+         </span><span class='content'>CycloneDX
+         SBOM
+         Component
+         Information</span></figcaption>
 </div>
 </div>
 <h5 id="coordinates">Coordinates</h5>
-<p>in <a href="#lst:sbom-component" data-reference-type="autoref"
-data-reference="lst:sbom-component">[lst:sbom-component]</a>, line 3-5,
+<p>in Listing <a href="#lst:sbom-component" data-reference-type="ref"
+data-reference="lst:sbom-component">4.1</a>, line 3-5,
 build the base identifier for a dependency: <em>group:name:version</em>.
 This trinity is used to identify a dependency conveniently and generally
 without further detail.</p>
 <p>Its use within <em>deprec</em> is to keep an association for further
 proceedings concerning a given dependency.</p>
 <h5 id="hashes">Hashes</h5>
-<p>in <a href="#lst:sbom-component" data-reference-type="autoref"
-data-reference="lst:sbom-component">[lst:sbom-component]</a>, line 7,
+<p>in Listing <a href="#lst:sbom-component" data-reference-type="ref"
+data-reference="lst:sbom-component">4.1</a>, line 7,
 are cryptographical hashes to identify specific artifacts of a
 dependency, such as the dependencies’ software package artifact. In this
 example, identifying the .jar file, i.e., the archive package file where
@@ -1599,8 +1519,8 @@ CycloneDX SBOM. Searching for dependencies by hashes prevents possible
 misinterpretation. Two dependencies can have similar coordinates, making
 it more difficult to filter manually, hashes help with that.</p>
 <h5 id="purl">PURL</h5>
-<p>in <a href="#lst:sbom-component" data-reference-type="autoref"
-data-reference="lst:sbom-component">[lst:sbom-component]</a>, line 9,
+<p>in Listing <a href="#lst:sbom-component" data-reference-type="ref"
+data-reference="lst:sbom-component">4.1</a>, line 9,
 provides the dependencies package URL, a standardized approach of
 reliably identifying and locating software packages across
 ecosystems.</p>
@@ -1609,8 +1529,8 @@ class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>
 to request a dependencies’ vulnerability report, for example, warrants
 such an PURL to access the API.</p>
 <h5 id="external-references">External References</h5>
-<p>in <a href="#lst:sbom-component" data-reference-type="autoref"
-data-reference="lst:sbom-component">[lst:sbom-component]</a>, line 10,
+<p>in Listing <a href="#lst:sbom-component" data-reference-type="ref"
+data-reference="lst:sbom-component">4.1</a>, line 10,
 is among the most valuable reasons why the CycloneDX SBOMs standard was
 chosen for <em>deprec</em>. Associating a dependency with, for example,
 its repository, issue tracker or a distribution would certainly be
@@ -1621,13 +1541,12 @@ of information, to the advantage of <em>deprec</em>.</p>
 <h2 id="extraction">Extracting Data</h2>
 <p>To assess dependencies about their end-of-support status, data has to
 be collected about a given dependency to obtain information about it, as
-referenced in <a href="#fig:info-landscape"
-data-reference-type="autoref"
-data-reference="fig:info-landscape">[fig:info-landscape]</a>. The
-extraction phase, as the initial step of <em>deprec</em> towards the
-assessment, collects data about a given dependency from various of its
-available data origins.</p>
-<p>Following that, keeping requirements and in mind, the extraction
+referenced in Figure <a href="#fig:info-landscape" data-reference-type="ref"
+data-reference="fig:info-landscape">2.3</a>. The extraction phase, as
+the initial step of <em>deprec</em> towards the assessment, collects
+data about a given dependency from various of its available data
+origins.</p>
+<p>Following that, keeping requirements <a href="#data-ind">Data Independence</a> and <a href="#expandability">Expandability</a> in mind, the extraction
 phase must have a modular design. Therefore, the extraction phase is
 split up to accommodate different <em>Extractors</em> with differing
 internal logic according to their data origin, but all doing the same
@@ -1635,9 +1554,9 @@ thing: collecting data. Splitting the extraction phase into modular
 <em>Extractors</em>, enables the extraction phase to function
 independent of a particular dependency and to be expandable for more
 data origins if needed.</p>
-<p><a href="#fig:extraction" data-reference-type="autoref"
-data-reference="fig:extraction">[fig:extraction]</a> depicts exemplarily
-the extraction phase for a Maven dependency, showing example
+<p>Figure <a href="#fig:extraction" data-reference-type="ref"
+data-reference="fig:extraction">4.1</a> depicts exemplarily the
+extraction phase for a Maven dependency, showing example
 <em>Extractors</em> for a vulnerability index, repository, and
 distribution, alongside the exemplary data that can be collected from
 the according data origin.</p>
@@ -1648,7 +1567,7 @@ consuming APIs, instead, <em>Extractors</em> can be implemented
 independently according to their data origin and fetch data from it.</p>
 <figure id="fig:extraction">
 <img src="images/extraction-final.drawio.png" style="width:100.0%" />
-<figcaption>Figure 5: <em>Deprec</em>: Extraction Phase</figcaption>
+<figcaption>Figure 4.1: <em>Deprec</em>: Extraction Phase</figcaption>
 </figure>
 <h2 id="data-model">Data Model as Abstraction Layer</h2>
 <p>Since different <em>Extractors</em> are used in the extraction phase
@@ -1664,15 +1583,14 @@ href="https://sourceforge.net/"><em>sourceforge.net</em></a>. Both give
 repository-related data, but both would require two distinct
 <em>Extractors</em>.</p>
 <p>The point is that, in order for <em>deprec</em> to achieve
-requirement yet remain abstract and constant in further proceedings, a
+requirement <a href="#data-ind">Data Independence</a> yet remain abstract and constant in further proceedings, a
 data model is elaborated in which <em>Extractors</em> store their
 extracted data. This data model functions as an abstraction layer
 between the extraction phase and assessment of a dependency as
 end-of-support.</p>
-<p>To be noted, even though <a href="#fig:info-landscape"
-data-reference-type="autoref"
-data-reference="fig:info-landscape">[fig:info-landscape]</a> is
-referenced in <a href="#extraction" data-reference-type="ref"
+<p>To be noted, even though Figure <a href="#fig:info-landscape"
+data-reference-type="ref" data-reference="fig:info-landscape">2.3</a> is
+referenced in section <a href="#extraction" data-reference-type="ref"
 data-reference="extraction">4.2</a>, it is to be differentiated from the
 data model elaborated in this section. The former divides the landscape
 of information into domains of informational value, while the latter
@@ -1681,7 +1599,7 @@ reflects data extracted in an abstracted and unifying form.</p>
 <p>The structural design of the data model is aligned with the data
 origins from which the <em>Extractors</em> extract their data. The <a
 href="#appendix:data-model" data-reference-type="ref"
-data-reference="appendix:data-model">8</a> contains the data model
+data-reference="appendix:data-model">Appendix A</a> contains the data model
 depicting different data fields, though with a depth of one. By depth is
 meant that, for example, <em>Organization</em> listed under
 <em>Repository</em> would contain further information such as
@@ -1718,7 +1636,7 @@ version of it.</p>
 <h2 id="integrating-framework">Integrating the <em>EOS Abstraction
 Framework</em></h2>
 <p>With data extracted and refurbished, this section describes the
-integration of the <em>EOS Abstraction Framework</em> proposed in <a
+integration of the <em>EOS Abstraction Framework</em> proposed in chapter <a
 href="#theoretic-basis" data-reference-type="ref"
 data-reference="theoretic-basis">2</a> into <em>deprec</em>. It
 elaborates on the utilization of data according to their informative
@@ -1726,27 +1644,25 @@ value and proposes the approach on evaluating <em>Statements</em> and
 <em>EOS Factors</em>.</p>
 <h3 id="leveraging-data-into-signals-and-metrics">Leveraging Data into
 <em>Signals</em> and <em>Metrics</em></h3>
-<p>Data extracted as described in <a href="#extraction"
+<p>Data extracted as described in section <a href="#extraction"
 data-reference-type="ref" data-reference="extraction">4.2</a> has to be
-interpreted in terms of information referenced in <a
+interpreted in terms of information referenced in section <a
 href="#sec:def-information" data-reference-type="ref"
 data-reference="sec:def-information">2.3.1</a> in order to evaluate
-<em>Statements</em> listed in <a href="#sec:statements"
+<em>Statements</em> listed in section <a href="#sec:statements"
 data-reference-type="ref" data-reference="sec:statements">2.3.2</a>.
 Given a collection of commits, no information results from the
 collection of commits itself and the <em>Statement</em> of
 <em>Activity</em>, for example, cannot be inferred. To gain information,
 it must first be concluded from the collection to subsequently infer
 <em>Activity</em>. Therefore, the data extracted is interpreted and
-converted into characterized informational value described in <a
+converted into characterized informational value described in section <a
 href="#sec:def-information" data-reference-type="ref"
 data-reference="sec:def-information">2.3.1</a>: <em>Signals</em> and
 <em>Metrics</em>.<br />
 </p>
 <div class="lstfloat">
 <div id="lst:extraction_result_data" class="listing json">
-<p>Listing lst:extraction_result_data: Exemplary Result of
-\cref{extraction}</p>
 <div class="sourceCode" id="cb2" data-language="json"
 data-frame="single" label="lst:extraction_result_data"
 data-captionpos="b"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
@@ -1760,6 +1676,11 @@ data-captionpos="b"><pre class="sourceCode json"><code class="sourceCode json"><
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="er">Vulnerability:</span> <span class="fu">{</span><span class="er">...</span><span class="fu">}</span><span class="ot">,</span> <span class="er">...</span></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        <span class="ot">]</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span></code></pre></div>
+<figcaption class='caption'><span class='id'>Listing 4.2:
+         </span><span class='content'>Exemplary
+         Result
+         of
+         <a href='#extraction'>section 4.2</a></span></figcaption>
 </div>
 </div>
 <figure id="fig:signals_and_metrics">
@@ -1771,15 +1692,15 @@ M1. Average organizations per contributor<br />
 M2. License restrictiveness<br />
 M3. Impact of latest release<br />
 </p>
-<figcaption>Figure 6: Exemplary <em>Signals</em>(S) and
+<figcaption>Figure 4.2: Exemplary <em>Signals</em>(S) and
 <em>Metrics</em>(M)</figcaption>
 </figure>
-<p>Given exemplary data in <a href="#lst:extraction_result_data"
-data-reference-type="autoref"
-data-reference="lst:extraction_result_data">[lst:extraction_result_data]</a>
-and selected <em>Signals</em> and <em>Metrics</em> in <a
-href="#fig:signals_and_metrics" data-reference-type="autoref"
-data-reference="fig:signals_and_metrics">[fig:signals_and_metrics]</a>:</p>
+<p>Given exemplary data in Listing <a href="#lst:extraction_result_data"
+data-reference-type="ref"
+data-reference="lst:extraction_result_data">4.2</a>
+and selected <em>Signals</em> and <em>Metrics</em> in Figure <a
+href="#fig:signals_and_metrics" data-reference-type="ref"
+data-reference="fig:signals_and_metrics">4.2</a>:</p>
 <h5 id="signals-1">Signals</h5>
 <p>are ’answered’ in the sense that data is evaluated to verify whether
 a given <em>Signal</em> indicates ’yes’ or ’no’, or the like:
@@ -1801,7 +1722,7 @@ apart from <em>Signals</em>, have to be interpreted further, for
 example, by comparison against a given threshold.</p>
 <h3 id="eval-statements">Evaluating <em>Statements</em>: Distributing
 <em>Points</em></h3>
-<p>To evaluate <em>Statements</em> listed in <a href="#sec:statements"
+<p>To evaluate <em>Statements</em> listed in section <a href="#sec:statements"
 data-reference-type="ref" data-reference="sec:statements">2.3.2</a>,
 corresponding <em>Signals</em> and <em>Metrics</em> are utilized and
 evaluated based on the informative value they carry.</p>
@@ -1847,7 +1768,7 @@ of <em>Points</em> can be interpreted as the evaluation of
 <em>Backup</em> based on utilized <em>Signals</em> and
 <em>Metrics</em>.</p>
 <h4 id="data-independence">Data Independence</h4>
-<p>Regarding the requirement of , the approach of distributing
+<p>Regarding the requirement of <a href="#data-ind">Data Independence</a>, the approach of distributing
 <em>Points</em> has the advantage that if more <em>Signals</em> or
 <em>Metrics</em> are to be evaluated for a given <em>Statement</em>,
 they can be added without interfering with other <em>Signals</em> or
@@ -1862,7 +1783,7 @@ data-reference-type="ref" data-reference="eos-afs">2.3.3</a>,
 corresponding <em>Statements</em> listed in the same are combined and
 adapted into a given <em>EOS Factor</em>. The combination of
 <em>Statements</em> works on the same basis when evaluating
-<em>Statements</em> as described in <a href="#eval-statements"
+<em>Statements</em> as described in section <a href="#eval-statements"
 data-reference-type="ref" data-reference="eval-statements">4.4.2</a>:
 <em>Points</em> distributed by <em>Statements</em> are taken over into a
 given <em>EOS Factor</em>, resulting in a composite distribution of
@@ -1938,57 +1859,55 @@ Disclosing all of them as the result of the classification assures that
 information is not lost. How to interpret the information and act upon,
 however, is up to the user.</p>
 <h2 id="agent">Agent-based Processing</h2>
-<p>The process described from <a href="#extraction"
-data-reference-type="autoref"
-data-reference="extraction">[extraction]</a> all the way to <a
-href="#combcon" data-reference-type="autoref"
-data-reference="combcon">[combcon]</a> has to be executed for each
-dependency independently. Therefore, <em>deprec</em> works upon an
-agent-based framework, where each dependency is handled by an
-<em>Agent</em>: from extracting data, to evaluating <em>Statements</em>
-and <em>EOS Factors</em>, combining the latter and concluding about a
-dependencies end-of-support status.</p>
+<p>The process described from section <a href="#extraction"
+data-reference-type="ref" data-reference="extraction">4.2</a> all the
+way to section <a href="#combcon" data-reference-type="ref"
+data-reference="combcon">4.5</a> has to be executed for each dependency
+independently. Therefore, <em>deprec</em> works upon an agent-based
+framework, where each dependency is handled by an <em>Agent</em>: from
+extracting data, to evaluating <em>Statements</em> and <em>EOS
+Factors</em>, combining the latter and concluding about a dependencies
+end-of-support status.</p>
 <p>Within <em>deprec</em>, <em>Agents</em> are created and dependencies
-are assigned for processing. <a href="#fig:agent"
-data-reference-type="autoref" data-reference="fig:agent">[fig:agent]</a>
-represents the internal logic of <em>Agents</em> and is modelled on the
-sections described hereinbefore. <em>Agents</em> receive dependencies
-with their metadata extracted from the SBOM, which <em>deprec</em>
-receives as input prior, and perform the extraction phase with
-<em>Extractors</em> according to their dependency. Finished
-<em>Extractors</em> enter their extracted data into the data model, with
-which <em>Agents</em> evaluate <em>Statements</em> and thus <em>EOS
-Factors</em>. This is followed by the phase of <em>Combination and
-Conclusion</em>, in which <em>Agents</em> combine <em>EOS Factors</em>
-and a final distribution of <em>Points</em> is composed. As a result,
-<em>Agents</em> return the distribution of <em>Points</em>, which is
-converted into probabilities for classifying their respective
-dependency.</p>
+are assigned for processing. Figure <a href="#fig:agent"
+data-reference-type="ref" data-reference="fig:agent">4.3</a> represents
+the internal logic of <em>Agents</em> and is modelled on the sections
+described hereinbefore. <em>Agents</em> receive dependencies with their
+metadata extracted from the SBOM, which <em>deprec</em> receives as
+input prior, and perform the extraction phase with <em>Extractors</em>
+according to their dependency. Finished <em>Extractors</em> enter their
+extracted data into the data model, with which <em>Agents</em> evaluate
+<em>Statements</em> and thus <em>EOS Factors</em>. This is followed by
+the phase of <em>Combination and Conclusion</em>, in which
+<em>Agents</em> combine <em>EOS Factors</em> and a final distribution of
+<em>Points</em> is composed. As a result, <em>Agents</em> return the
+distribution of <em>Points</em>, which is converted into probabilities
+for classifying their respective dependency.</p>
 <figure id="fig:agent">
 <img src="images/agent-final.drawio.png" style="width:70.0%" />
-<figcaption>Figure 7: <em>Agent</em>: In-Depth Look </figcaption>
+<figcaption>Figure 4.3: <em>Agent</em>: In-Depth Look </figcaption>
 </figure>
 <h3 class="unnumbered" id="top-level-view">Top-Level View</h3>
-<p>To round off <a href="#technical-conception"
-data-reference-type="ref" data-reference="technical-conception">4</a>,
-<a href="#fig:top-level" data-reference-type="autoref"
-data-reference="fig:top-level">[fig:top-level]</a> represents
-<em>deprec</em>’s top-level view: a generated SBOM for a given project
-is taken as input by <em>deprec</em>; the SBOM is decomposed into its
-listed dependencies with corresponding metadata; for each dependency is
-an <em>Agent</em> created, and the classification result collected; a
-report whether the project contains dependencies classified as
-end-of-support represents the output of <em>deprec</em>.</p>
+<p>To round off chapter <a href="#technical-conception"
+data-reference-type="ref" data-reference="technical-conception">4</a>, 
+Figure <a href="#fig:top-level" data-reference-type="ref"
+data-reference="fig:top-level">4.4</a> represents <em>deprec</em>’s
+top-level view: a generated SBOM for a given project is taken as input
+by <em>deprec</em>; the SBOM is decomposed into its listed dependencies
+with corresponding metadata; for each dependency is an <em>Agent</em>
+created, and the classification result collected; a report whether the
+project contains dependencies classified as end-of-support represents
+the output of <em>deprec</em>.</p>
 <figure id="fig:top-level">
 <img src="images/deprec - toplevel.drawio.png" style="width:70.0%" />
-<figcaption>Figure 8: Top-Level Depiction of
+<figcaption>Figure 4.4: Top-Level Depiction of
 <em>Deprec</em></figcaption>
 </figure>
 <h1 id="impl">Implementation</h1>
-<p>Following the technical conception of <em>deprec</em> proposed in <a
+<p>Following the technical conception of <em>deprec</em> proposed in chapter<a
 href="#technical-conception" data-reference-type="ref"
 data-reference="technical-conception">4</a> with set requirements
-described in <a href="#requirements" data-reference-type="ref"
+described in chapter <a href="#requirements" data-reference-type="ref"
 data-reference="requirements">3</a> for the same, <em>deprec</em> can be
 implemented<a href="#fn28" class="footnote-ref" id="fnref28"
 role="doc-noteref"><sup>28</sup></a>. This chapter provides insights
@@ -2001,7 +1920,7 @@ discussed.</p>
 <p>The following are general conditions with which the implementation of
 <em>deprec</em> was accomplished. They pose leading implementation
 decisions which are specific to the implementation within this work to
-specifically foster <a href="#gc-and-uc" data-reference-type="ref"
+specifically foster section <a href="#gc-and-uc" data-reference-type="ref"
 data-reference="gc-and-uc">3.1</a>.</p>
 <h3 class="unnumbered" id="development-environment">Development
 Environment</h3>
@@ -2012,7 +1931,7 @@ extraction phase of <em>deprec</em> sets itself within web development
 due to data extracted being foremost fetched by consuming APIs.
 Furthermore, due to the agent-based framework described in <a
 href="#agent" data-reference-type="ref" data-reference="agent">4.6</a>,
-performance and concurrency play a role. Lastly, considering requirement
+performance and concurrency play a role. Lastly, considering requirement <a href="#integrability">Integrability</a>
 , <em>deprec</em> can be implemented, for example as a command line
 interface tool or service.</p>
 <p>Following that, the Go programming language is suitable for
@@ -2029,7 +1948,7 @@ apart from the one for <a
 href="https://github.com/"><em>github.com</em></a> repositories were not
 considered for initial implementation.</p>
 <h3 class="unnumbered" id="maven-ecosystem">Maven Ecosystem</h3>
-<p>In unison with <a href="#gc-and-uc" data-reference-type="ref"
+<p>In unison with section <a href="#gc-and-uc" data-reference-type="ref"
 data-reference="gc-and-uc">3.1</a>, the implementation of
 <em>deprec</em> is foremost concentrated on detecting end-of-support
 dependencies within the Maven ecosystem. Following that, the extraction
@@ -2048,7 +1967,7 @@ implementation-heavy and time-consuming web scraping as an alternative,
 the latter was settled with for initial implementation.</p>
 <h3 class="unnumbered" id="continuous-integration">Continuous
 Integration</h3>
-<p>Following <a href="#gc-and-uc" data-reference-type="ref"
+<p>Following section <a href="#gc-and-uc" data-reference-type="ref"
 data-reference="gc-and-uc">3.1</a>, the foremost use in practice for
 <em>deprec</em> will be inside continuous integration pipelines. Device
 Insight utilizes GitLab pipelines<a href="#fn30" class="footnote-ref"
@@ -2058,17 +1977,16 @@ implemented foremost with this circumstance in mind.</p>
 <h3 class="unnumbered" id="4-cat"><em>Points</em> Distribution
 Categories</h3>
 <p>When evaluating <em>Statements</em> and <em>EOS Factors</em>,
-<em>Points</em> as described in <a href="#eval-statements"
+<em>Points</em> as described in section <a href="#eval-statements"
 data-reference-type="ref" data-reference="eval-statements">4.4.2</a> are
 distributed to categories. Before starting the implementation of
 <em>deprec</em>, such categories have to be defined to evaluate
 <em>Statements</em> and therefore <em>EOS Factors</em>, which in turn
-represent the classification result of a dependency (see <a
-href="#fig:agent" data-reference-type="autoref"
-data-reference="fig:agent">[fig:agent]</a>) and are returned as output
-of <em>deprec</em> (see <a href="#fig:top-level"
-data-reference-type="autoref"
-data-reference="fig:top-level">[fig:top-level]</a>).</p>
+represent the classification result of a dependency (see Figure <a
+href="#fig:agent" data-reference-type="ref"
+data-reference="fig:agent">4.3</a>) and are returned as output of
+<em>deprec</em> (see Figure <a href="#fig:top-level" data-reference-type="ref"
+data-reference="fig:top-level">4.4</a>).</p>
 <p>Due to <em>deprec</em> having its use case within dependency
 management, detecting end-of-support dependencies within a project
 serves as a prophylaxis to minimize risks and expenses due to
@@ -2181,7 +2099,7 @@ API responses conveniently and natively without interference, which was
 the main reason why MongoDB was chosen.</p>
 <h2 id="cores"><em>Cores</em> Data Structure</h2>
 <p><em>Statements</em> and <em>EOS Factors</em> both rely on the concept
-of distributing points proposed in <a href="#eval-statements"
+of distributing points proposed in section <a href="#eval-statements"
 data-reference-type="ref" data-reference="eval-statements">4.4.2</a>.
 The key difference being that <em>Statements</em> distribute points by
 evaluating <em>Signals</em> and <em>Metrics</em>, whereas <em>EOS
@@ -2194,7 +2112,6 @@ or taking over distributed <em>Points</em> from other
 <em>Cores</em>.</p>
 <div class="lstfloat">
 <div id="lst:cores-struct" class="listing go">
-<p>Listing lst:cores-struct: Cores Data Structure</p>
 <div class="sourceCode" id="cb3" data-language="go" data-frame="single"
 label="lst:cores-struct" data-captionpos="b"><pre
 class="sourceCode go"><code class="sourceCode go"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">type</span> Core <span class="kw">struct</span> <span class="op">{</span></span>
@@ -2210,14 +2127,15 @@ class="sourceCode go"><code class="sourceCode go"><span id="cb3-1"><a href="#cb3
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">func</span> <span class="op">(</span>c <span class="op">*</span>Core<span class="op">)</span> Intake<span class="op">(</span>value<span class="op">,</span> weight<span class="op">){...}</span></span>
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">func</span> <span class="op">(</span>c <span class="op">*</span>Core<span class="op">)</span> Overtake<span class="op">(</span>core<span class="op">,</span> weight<span class="op">){...}</span>  </span></code></pre></div>
+<figcaption class='caption'><span class='id'>Listing 5.1: </span><span class='content'>Cores Data Structure</span></figcaption>
 </div>
 </div>
-<p><a href="#lst:cores-struct" data-reference-type="autoref"
-data-reference="lst:cores-struct">[lst:cores-struct]</a> depicts the
+<p>Listing <a href="#lst:cores-struct" data-reference-type="ref"
+data-reference="lst:cores-struct">5.1</a> depicts the
 simplified Golang struct alongside its two <em>intake</em> and
 <em>overtake</em> methods. Differentiated by its <em>Name</em>, a
-<em>Core</em> has four categories according to <a href="#4-cat"
-data-reference-type="ref" data-reference="4-cat">[4-cat]</a> which
+<em>Core</em> has four categories according to section <a href="#4-cat"
+data-reference-type="ref" data-reference="4-cat">5.1</a> which
 <em>Points</em> can be distributed to. Categories and <em>Points</em>
 distributed to them are represented as float, with each <em>Point</em>
 being added, incrementing the float value.</p>
@@ -2257,10 +2175,10 @@ multiple <em>Cores</em> set in relation to each other by weights,
 without weights of underlying <em>Cores</em> to interfere.</p>
 <h2 id="selected-statements-and-eos-factors">Selected
 <em>Statements</em> and <em>EOS Factors</em></h2>
-<p>On the base of information in <a href="#sec:def-information"
+<p>On the base of information in section <a href="#sec:def-information"
 data-reference-type="ref" data-reference="sec:def-information">2.3.1</a>
 and definitions of <em>Statements</em> and <em>EOS Factors</em>,
-following the concept of the same described in <a
+following the concept of the same described in section <a
 href="#integrating-framework" data-reference-type="ref"
 data-reference="integrating-framework">4.4</a>, <em>Statements</em> and
 <em>EOS Factors</em> are implemented. To be noted, only few
@@ -2274,13 +2192,13 @@ evaluate <em>Statements</em>. Furthermore, detailing how
 <em>Statements</em> are combined into <em>EOS Factors</em>.</p>
 <h3 id="implementation-difficulties">Implementation Difficulties</h3>
 <p>Within the scope of this work, not all <em>EOS Factors</em> were
-implemented to their fullest capabilities. <a
-href="#fig:afs-implemented" data-reference-type="autoref"
-data-reference="fig:afs-implemented">[fig:afs-implemented]</a> depicts
-the current state of implementation as of this work. Some
-<em>Statements</em> were less feasible than others, with higher cost of
-implementation associated. Their implementation would involve a
-disproportionately high effort to achieve their fullest.</p>
+implemented to their fullest capabilities. Figure <a
+href="#fig:afs-implemented" data-reference-type="ref"
+data-reference="fig:afs-implemented">5.1</a> depicts the current state
+of implementation as of this work. Some <em>Statements</em> were less
+feasible than others, with higher cost of implementation associated.
+Their implementation would involve a disproportionately high effort to
+achieve their fullest.</p>
 <p><em>Marking</em>, for example, was implemented as basic key-word
 comparison. It would be possible to be implemented in a much more
 complex way, for example, to cover the broadest of details whether a
@@ -2315,7 +2233,7 @@ one, the classification would function anyway, though with more room for
 inaccuracy, the fewer <em>Statements</em> that could be used.</p>
 <figure id="fig:afs-implemented">
 <img src="images/afs implementend.drawio.png" style="width:100.0%" />
-<figcaption>Figure 9: Implemented <em>Statements</em> and <em>EOS
+<figcaption>Figure 5.1: Implemented <em>Statements</em> and <em>EOS
 Factors</em> — Non-implemented are sketched out</figcaption>
 </figure>
 <h3 id="continuous-evaluation">Continuous Evaluation</h3>
@@ -2323,9 +2241,9 @@ Factors</em> — Non-implemented are sketched out</figcaption>
 implementation was continuously evaluated and parameter-tuned based on a
 dependency collection<a href="#fn40" class="footnote-ref" id="fnref40"
 role="doc-noteref"><sup>40</sup></a> representing the evaluation set
-mentioned in requirement . Dependencies were collected throughout the
+mentioned in requirement <a href="#out-of-scope">Out Of Scope</a>. Dependencies were collected throughout the
 time span of this work and subjectively assessed and classified as one
-of the four categories described in <a href="#impl-gc"
+of the four categories described in section <a href="#impl-gc"
 data-reference-type="ref" data-reference="impl-gc">5.1</a>.</p>
 <h3 id="impl-statements"><em>Statements</em></h3>
 <h4 class="unnumbered" id="activity-1">Activity</h4>
@@ -2344,51 +2262,50 @@ Instead, recent commit activity is compared against its timeline, i.e.,
 past commit activity. Meaning by that, for example, commit activity in
 the past two months is compared against commit activity of the last six
 months up to the past two months.<br />
-In preparation, three distinct targets are computed, visualized in <a
-href="#fig:activity-viz" data-reference-type="autoref"
-data-reference="fig:activity-viz">[fig:activity-viz]</a>:
-<strong>I</strong> Having the history of commits and their timestamps,
-they were grouped by month and a monthly average <span
-class="math inline">\(AVG\)</span> was computed; <strong>II</strong>
-following that, the monthly commit timeline is split into <span
-class="math inline">\(n\)</span> sections of equal size, i.e.,
-percentiles <span class="math inline">\(P_n\)</span>;
+In preparation, three distinct targets are computed, visualized in Figure <a
+href="#fig:activity-viz" data-reference-type="ref"
+data-reference="fig:activity-viz">5.2</a>: <strong>I</strong> Having the
+history of commits and their timestamps, they were grouped by month and
+a monthly average <span class="math inline">\(AVG\)</span> was computed;
+<strong>II</strong> following that, the monthly commit timeline is split
+into <span class="math inline">\(n\)</span> sections of equal size,
+i.e., percentiles <span class="math inline">\(P_n\)</span>;
 <strong>III</strong> further, grouping all monthly commits for each
 percentile <span class="math inline">\(P_n\)</span>, an average <span
 class="math inline">\(P_{n,AVG}\)</span> for each percentile <span
 class="math inline">\(P_n\)</span> was computed.</p>
 <figure id="fig:activity-viz">
 <img src="images/activity-example.drawio.png" style="width:100.0%" />
-<figcaption>Figure 10: <em>Activity</em> Computing Targets</figcaption>
+<figcaption>Figure 5.2: <em>Activity</em> Computing Targets</figcaption>
 </figure>
 <p>Using <strong>I</strong>, <strong>II</strong> and
 <strong>III</strong>, the first <em>Metric</em> for <em>Activity</em>
-was computed with <a href="#LPA-Over-SPA" data-reference-type="autoref"
-data-reference="LPA-Over-SPA">[LPA-Over-SPA]</a>. Arguing that activity
+was computed with Equation <a href="#LPA-Over-SPA" data-reference-type="ref"
+data-reference="LPA-Over-SPA">5.1</a>. Arguing that activity
 is at its highest around a projects’ growth stage <span class="citation"
 data-cites="wang_survival_2012">(J. Wang 2012, 356)</span>, comparing
 recent commit activity against a repositories’ commit activity at growth
 stage places the former in relation. Dividing the commit timeline into
 five sections, i.e., 20 percentiles, the growth stage most likely lies
 within the first half of the timeline. Therefore, <a
-href="#LPA-Over-SPA" data-reference-type="autoref"
-data-reference="LPA-Over-SPA">[LPA-Over-SPA]</a> evaluates the last 20
+href="#LPA-Over-SPA" data-reference-type="ref"
+data-reference="LPA-Over-SPA">5.1</a> evaluates the last 20
 percent of commits in relation to the second 20 percent of commits.</p>
-<p><span class="math display">\[\label{LPA-Over-SPA}
+<p><span id="LPA-Over-SPA" class="math display">\[\label{LPA-Over-SPA}
     recent\ activity\ to\ growth =
-\frac{P_{5,AVG}}{P_{2,AVG}}\]</span></p>
+\frac{P_{5,AVG}}{P_{2,AVG}}\]</span> (5.2)</p>
 <p>Elaborating further, the second <em>Metric</em> for <em>Activity</em>
-was computed with <a href="#LPA-Over-AVG" data-reference-type="autoref"
-data-reference="LPA-Over-AVG">[LPA-Over-AVG]</a>. Again, the commit
-timeline is divided into percentiles of 20. Contrary to <a
-href="#LPA-Over-SPA" data-reference-type="autoref"
-data-reference="LPA-Over-SPA">[LPA-Over-SPA]</a>, <a
-href="#LPA-Over-AVG" data-reference-type="autoref"
-data-reference="LPA-Over-AVG">[LPA-Over-AVG]</a> compares recent commit
+was computed with Equation <a href="#LPA-Over-AVG" data-reference-type="ref"
+data-reference="LPA-Over-AVG">5.2</a>. Again, the commit
+timeline is divided into percentiles of 20. Contrary to Equation <a
+href="#LPA-Over-SPA" data-reference-type="ref"
+data-reference="LPA-Over-SPA">5.1</a>, Equation <a
+href="#LPA-Over-AVG" data-reference-type="ref"
+data-reference="LPA-Over-AVG">5.2</a> compares recent commit
 activity against the repositories average commit activity over all its
 timeline.</p>
-<p><span class="math display">\[\label{LPA-Over-AVG}
-     recent\ activity\ to\ average = \frac{P_{5,AVG}}{AVG}\]</span></p>
+<p><span id="LPA-Over-AVG" class="math display">\[\label{LPA-Over-AVG}
+     recent\ activity\ to\ average = \frac{P_{5,AVG}}{AVG}\]</span> (5.2)</p>
 <h4 class="unnumbered" id="recentness-1">Recentness</h4>
 <p>Given whether a repository was updated recently, <em>Recentness</em>
 is evaluated by comparing latest commits and releases against limits.
@@ -2414,31 +2331,29 @@ repositories latest release as <em>Metric</em> and comparing it against
 its given limit is sufficient.</p>
 <h4 class="unnumbered" id="processing-1">Processing</h4>
 <p>The core of <em>Processing</em> is efficiency of issue handling. To
-measure it, the target <em>Metric</em> of <em>burn</em> using <a
-href="#burn" data-reference-type="autoref"
-data-reference="burn">[burn]</a> was computed for each month of the
-repository issue timeline. <em>Burn</em> represents the efficiency with
-which a repository processes (closes) their issues. Low <em>burn</em> in
-a month indicates that a repository received more issues than it could
-process, with high <em>burn</em> indicating that a repository managed to
-keep their issue numbers at bay, able to close more issues than it
-received.</p>
+measure it, the target <em>Metric</em> of <em>burn</em> using Equation <a
+href="#burn" data-reference-type="ref" data-reference="burn">5.3</a>
+was computed for each month of the repository issue timeline.
+<em>Burn</em> represents the efficiency with which a repository
+processes (closes) their issues. Low <em>burn</em> in a month indicates
+that a repository received more issues than it could process, with high
+<em>burn</em> indicating that a repository managed to keep their issue
+numbers at bay, able to close more issues than it received.</p>
 <p>Though <em>burn</em> represents the efficiency with which a
 repository processes issues, it cannot be used to evaluate
 <em>Processing</em> yet, further computing is necessary. To evaluate
 <em>Processing</em>, the <em>burn</em> timeline was evaluated with the
-same principles depicted in <a href="#fig:activity-viz"
-data-reference-type="autoref"
-data-reference="fig:activity-viz">[fig:activity-viz]</a>. The timeline
-is split into five sections, i.e., 20 percentiles. Similar to
+same principles depicted in Figure <a href="#fig:activity-viz"
+data-reference-type="ref" data-reference="fig:activity-viz">5.2</a>. The
+timeline is split into five sections, i.e., 20 percentiles. Similar to
 <em>Activity</em>, recent <em>burn</em> was evaluated in relation to the
 timelines total average <em>burn</em> and the <em>burn</em> of the
 repository at its growth stage.</p>
 <p>In addition to utilizing <em>burn</em>, the average closing time of
 issues was computed and compared against the given limit of two
 months.</p>
-<p><span class="math display">\[\label{burn}
-     burn = \frac{closed\ issues}{opened\ issues}\]</span></p>
+<p><span id="burn" class="math display">\[\label{burn}
+     burn = \frac{closed\ issues}{opened\ issues}\]</span>(5.3)</p>
 <h4 class="unnumbered" id="backup-1">Backup</h4>
 <p>Implementing <em>Backup</em> as to how much a dependency is backed
 up, the following <em>Metrics</em> are cumulated and compared against
@@ -2469,13 +2384,13 @@ than <em>Circumstance</em>, all <em>EOS Factors</em> weight their
 though, as to how to weight different <em>Statements</em> within <em>EOS
 Factors</em> is hard to achieve, but could be subject to further
 research.</p>
-<p>Elaborating further, <a href="#combcon" data-reference-type="ref"
+<p>Elaborating further, section <a href="#combcon" data-reference-type="ref"
 data-reference="combcon">4.5</a> describes that <em>EOS Factors</em>
 among themselves are combined to composite the final distribution of
 <em>Points</em> representing the classification of a dependency as
 end-of-support. The evaluation functionality of this aspect is
 implemented the same as just described, trade-off of all seven <em>EOS
-Factors</em>. <em>Effort</em> and <em>Support</em>, following <a
+Factors</em>. <em>Effort</em> and <em>Support</em>, following section <a
 href="#interconnections" data-reference-type="ref"
 data-reference="interconnections">4.5.1.1</a>, are weighted heaviest,
 followed by <em>Community</em> and <em>Interconnectedness</em>, with
@@ -2500,30 +2415,29 @@ throughout the implementation can be configured to control and tune the
 evaluation.</p>
 <h2 id="separating-functionality-from-application">Separating
 Functionality from Application</h2>
-<p>The technical conception presented in <a href="#technical-conception"
+<p>The technical conception presented in chapter <a href="#technical-conception"
 data-reference-type="ref" data-reference="technical-conception">4</a>
 and implementation described hereinbefore does not entail details of the
 practical usage of <em>deprec</em> and how it can be utilized from a
 user standpoint within pre-existing workflows and infrastructure. Done
 so with intention, the functionality of <em>deprec</em>, i.e.,
 project-based dependency end-of-support detection, is split from its
-application. To achieve requirement , separating functionality from
+application. To achieve requirement <a href="#integrability">Integrability</a>, separating functionality from
 application enabled the former to be implemented to fit different
 premises.</p>
 <h3 id="deprec-interface"><em>Deprec</em>: Interface</h3>
 <p>To facilitate the split of functionality and application,
-<em>deprec</em> defines an interface listed in <a
-href="#lst:deprec-interface" data-reference-type="autoref"
-data-reference="lst:deprec-interface">[lst:deprec-interface]</a> as the
+<em>deprec</em> defines an interface listed in Listing <a
+href="#lst:deprec-interface" data-reference-type="ref"
+data-reference="lst:deprec-interface">5.2</a> as the
 docking point for applications integrating <em>deprec</em>. Detailed in
 a simplified way, it is modelled for ease of use through simplicity and,
-on a side note, represents the implementation of <a
-href="#fig:top-level" data-reference-type="autoref"
-data-reference="fig:top-level">[fig:top-level]</a>.<br />
+on a side note, represents the implementation of Figure <a
+href="#fig:top-level" data-reference-type="ref"
+data-reference="fig:top-level">4.4</a>.<br />
 </p>
 <div class="lstfloat">
 <div id="lst:deprec-interface" class="listing go">
-<p>Listing lst:deprec-interface: \textit{Deprec}: Interface</p>
 <div class="sourceCode" id="cb4" data-language="go" data-frame="single"
 label="lst:deprec-interface" data-captionpos="b"><pre
 class="sourceCode go"><code class="sourceCode go"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">type</span> Deprec <span class="kw">struct</span> <span class="op">{</span></span>
@@ -2545,17 +2459,17 @@ class="sourceCode go"><code class="sourceCode go"><span id="cb4-1"><a href="#cb4
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>            </span>
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> report</span>
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span></code></pre></div>
+<figcaption class='caption'><span class='id'>Listing 5.2: </span><span class='content'><span class='cmti-10x-x-109'>Deprec</span>: Interface</span></figcaption>
 </div>
 </div>
-<p>Given in <a href="#lst:deprec-interface"
-data-reference-type="autoref"
-data-reference="lst:deprec-interface">[lst:deprec-interface]</a> is
+<p>Given in Listing <a href="#lst:deprec-interface" data-reference-type="ref"
+data-reference="lst:deprec-interface">5.2</a> is
 <em>deprec</em>’s basic instance, entailing a configuration with which
 the instance is configured when created with the according
 <em>NewDeprec</em> method. The configuration available in <a
-href="#appendix:deprec-config" data-reference-type="autoref"
-data-reference="appendix:deprec-config">[appendix:deprec-config]</a>
-entails limits, thresholds, weights, and percentages referenced in <a
+href="#appendix:deprec-config" data-reference-type="ref"
+data-reference="appendix:deprec-config">Appendix B</a> entails limits,
+thresholds, weights, and percentages referenced in section <a
 href="#configuration" data-reference-type="ref"
 data-reference="configuration">5.4.5</a> as well as necessary
 information for <em>Extractors</em> to utilize their according APIs,
@@ -2566,7 +2480,7 @@ an <em>Agent</em> for each dependency, passing it the aforementioned
 configuration. Each <em>Agent</em> is run, and its result collected into
 a report, which is then returned.</p>
 <h3 id="deprec-as-cli-tool"><em>Deprec</em> as CLI Tool</h3>
-<p>Stated in <a href="#gc-and-uc" data-reference-type="ref"
+<p>Stated in section <a href="#gc-and-uc" data-reference-type="ref"
 data-reference="gc-and-uc">3.1</a>, <em>deprec</em> is integrated into
 and initially tested within continuous integration pipelines. Following
 that, the software solution and its application has to be implemented
@@ -2583,7 +2497,6 @@ tool is referenced hereinafter under the title
 </p>
 <div class="lstfloat">
 <div id="lst:deprec-cli-usage" class="listing">
-<p>Listing lst:deprec-cli-usage: \textit{Deprec-cli} Usage</p>
 <pre data-frame="single" label="lst:deprec-cli-usage"
 data-captionpos="b"><code>Usage: deprec-cli [options] &lt;sbomJson&gt;                                         
 Options:                                                                             
@@ -2597,14 +2510,15 @@ Options:
         Run mode - parallel or linear (default &quot;parallel&quot;)                           
   -workers int                                                                       
         Number of workers if in parallel mode (default 5)  </code></pre>
+<figcaption class='caption'><span class='id'>Listing 5.3: </span><span class='content'><span class='cmti-10x-x-109'>Deprec-cli </span>Usage</span></figcaption>
 </div>
 </div>
 <p>The core of <em>deprec-cli</em> is that it wraps <em>deprec</em>, it
 handles input, output, and configuration details via the command line
 such as decoding SBOM files, writing to an output file or handling the
-configuration for <em>deprec</em>. Listed in <a
-href="#lst:deprec-cli-usage" data-reference-type="autoref"
-data-reference="lst:deprec-cli-usage">[lst:deprec-cli-usage]</a> is its
+configuration for <em>deprec</em>. Listed in Listing <a
+href="#lst:deprec-cli-usage" data-reference-type="ref"
+data-reference="lst:deprec-cli-usage">5.3</a> is its
 usage, detailing what <em>deprec-cli</em> takes in as command line
 argument alongside its options.</p>
 <h5 id="deprec-cli">deprec-cli</h5>
@@ -2615,11 +2529,11 @@ that is to be analyzed. Options of <em>deprec-cli</em> consist of:</p>
 percentages, weights, and thresholds used for evaluating
 <em>Statements</em> and <em>EOS Factors</em>. This option maps the
 configuration of <em>deprec</em> listed in <a
-href="#appendix:lst:deprec-config-eval1" data-reference-type="autoref"
-data-reference="appendix:lst:deprec-config-eval1">[appendix:lst:deprec-config-eval1]</a>
+href="#appendix:lst:deprec-config-eval1" data-reference-type="ref"
+data-reference="appendix:lst:deprec-config-eval1">Appendix B.3</a>
 and <a href="#appendix:lst:deprec-config-eval2"
-data-reference-type="autoref"
-data-reference="appendix:lst:deprec-config-eval2">[appendix:lst:deprec-config-eval2]</a>.</p>
+data-reference-type="ref"
+data-reference="appendix:lst:deprec-config-eval2">Appendix B.4</a>.</p>
 <h6 id="env">env</h6>
 <p>representing the path to an environment variable file. It contains
 sensitive information such as tokens and passwords as environment
@@ -2629,12 +2543,11 @@ variables, be it through an <em>.env</em> file that <em>deprec-cli</em>
 then loads itself or pre-existing environment variables when
 <em>deprec-cli</em> is invoked. This option maps the configuration of
 <em>deprec</em> listed in <a
-href="#appendix:lst:deprec-config-extraction"
-data-reference-type="autoref"
-data-reference="appendix:lst:deprec-config-extraction">[appendix:lst:deprec-config-extraction]</a>
+href="#appendix:lst:deprec-config-extraction" data-reference-type="ref"
+data-reference="appendix:lst:deprec-config-extraction">Appendix B.1</a>
 and <a href="#appendix:lst:deprec-config-cache"
-data-reference-type="autoref"
-data-reference="appendix:lst:deprec-config-cache">[appendix:lst:deprec-config-cache]</a>.</p>
+data-reference-type="ref"
+data-reference="appendix:lst:deprec-config-cache">Appendix B.2</a>.</p>
 <h6 id="output">output</h6>
 <p>representing the path to where the result of a finished SBOM
 analysis, i.e., dependencies and their classification distribution,
@@ -2651,9 +2564,9 @@ run to analyze dependencies concurrently. Meaning, by that, the number
 of <em>Agents</em> that can be created and run concurrently.</p>
 <h2 id="limitations">Limitations</h2>
 <p><em>Deprec</em> implemented within this work subdues three
-consequential limitations by design decisions made in <a
+consequential limitations by design decisions made in chapter <a
 href="#technical-conception" data-reference-type="ref"
-data-reference="technical-conception">4</a> and <a href="#impl-gc"
+data-reference="technical-conception">4</a> and section <a href="#impl-gc"
 data-reference-type="ref" data-reference="impl-gc">5.1</a>.</p>
 <h3 class="unnumbered" id="github-api-rate-limits">GitHub API Rate
 Limits</h3>
@@ -2675,7 +2588,7 @@ the REST API with its GraphQL pendant is not possible, as rate limits on
 the latter are calculated to counteract the greater capabilities of
 GraphQL compared to REST and are not based on number of requests.</p>
 <h3 class="unnumbered" id="maven-central">Maven Central</h3>
-<p>Mentioned in <a href="#impl-gc" data-reference-type="ref"
+<p>Mentioned in section <a href="#impl-gc" data-reference-type="ref"
 data-reference="impl-gc">5.1</a> is that the Maven ecosystem offers two
 distinct data origins. Suitable for integration, though, was only one of
 the two. The hoped-for benefit of rich information that <a
@@ -2706,11 +2619,11 @@ repositories to associate a repository with the dependency at hand, was
 not considered. Though possible, it was deemed as not feasible for
 within this work nor its scope.</p>
 <h1 id="evaluation">Evaluation</h1>
-<p>The technical concept proposed in <a href="#technical-conception"
+<p>The technical concept proposed in chapter <a href="#technical-conception"
 data-reference-type="ref" data-reference="technical-conception">4</a>
-was designed following its requirements in <a href="#requirements"
+was designed following its requirements in chapter <a href="#requirements"
 data-reference-type="ref" data-reference="requirements">3</a>.
-Implemented following the same and alongside <a href="#impl-gc"
+Implemented following the same and alongside section <a href="#impl-gc"
 data-reference-type="ref" data-reference="impl-gc">5.1</a>,
 <em>deprec</em> respectively <em>deprec-cli</em> is to be evaluated in
 practice in terms of usability. Focused on in this chapter is the
@@ -2719,14 +2632,13 @@ integration pipelines, discussing <em>deprec</em>’s performance and
 evaluating its results of classifying dependencies.</p>
 <h2 id="integration-into-gitlab-ci">Integration into GitLab CI</h2>
 <p>To evaluate usability, <em>deprec</em> respectively
-<em>deprec-cli</em>, in unison with <a href="#impl-gc"
+<em>deprec-cli</em>, in unison with section <a href="#impl-gc"
 data-reference-type="ref" data-reference="impl-gc">5.1</a>, was
 integrated into GitLab’s continuous integration pipelines. An example
 project was taken and a pipeline configuration implemented. Listed in <a
-href="#appendix:gitlab-integration" data-reference-type="autoref"
-data-reference="appendix:gitlab-integration">[appendix:gitlab-integration]</a>
-are the two pipeline jobs implemented to integrate
-<em>deprec-cli</em>.</p>
+href="#appendix:gitlab-integration" data-reference-type="ref"
+data-reference="appendix:gitlab-integration">Appendix C</a> are the two pipeline
+jobs implemented to integrate <em>deprec-cli</em>.</p>
 <p>Due to <em>deprec-cli</em> taking an SBOM as input, it is important
 that wherever <em>deprec-cli</em> is integrated into, an SBOM can be
 generated to be passed into <em>deprec-cli</em>. The project taken for
@@ -2735,10 +2647,9 @@ application in the Maven ecosystem. CycloneDX provides a Maven plugin<a
 href="#fn43" class="footnote-ref" id="fnref43"
 role="doc-noteref"><sup>43</sup></a> to generate SBOMs for projects
 built within Maven. As listed, the preceding job in <a
-href="#appendix:gitlab-integration" data-reference-type="autoref"
-data-reference="appendix:gitlab-integration">[appendix:gitlab-integration]</a>
-generates a SBOM for the project with the Maven plugin and saves it to
-be handed over.</p>
+href="#appendix:gitlab-integration" data-reference-type="ref"
+data-reference="appendix:gitlab-integration">Appendix C</a> generates a SBOM for
+the project with the Maven plugin and saves it to be handed over.</p>
 <p>Following that, <em>deprec-cli</em> can be fetched via its released
 artifact from its official repository<a href="#fn44"
 class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a>.
@@ -2775,13 +2686,13 @@ runtime profiling package ’pprof’<a href="#fn46" class="footnote-ref"
 id="fnref46" role="doc-noteref"><sup>46</sup></a>, the runtime of
 <em>Agents</em> representing the time for a dependency to be processed
 was measured. In terms of data, <em>deprec</em> revealed average
-dependency throughputs based on if run with or without cache listed in
-<a href="#tab:deprec-throughput" data-reference-type="autoref"
-data-reference="tab:deprec-throughput">[tab:deprec-throughput]</a>.
-Though, only 50 dependencies were run for each SBOM due to rate-limiting
-reasons. Furthermore, SBOMs of projects not developed within the Maven
-ecosystems were used also as <em>Extractors</em> for GitHub and OSS
-Index were still viable for extracting data from non-Maven SBOMs.</p>
+dependency throughputs based on if run with or without cache listed in Table
+<a href="#tab:deprec-throughput" data-reference-type="ref"
+data-reference="tab:deprec-throughput">6.1</a>. Though, only 50
+dependencies were run for each SBOM due to rate-limiting reasons.
+Furthermore, SBOMs of projects not developed within the Maven ecosystems
+were used also as <em>Extractors</em> for GitHub and OSS Index were
+still viable for extracting data from non-Maven SBOMs.</p>
 <p>Resulting that the extraction phase took up most of the runtime of an
 <em>Agent</em> by far, two key-takeaways can be distilled:
 <strong>(a)</strong> the performance of <em>deprec</em> is profoundly
@@ -2802,10 +2713,6 @@ increased number of dependencies processed when running
 <em>Keycloak</em>’s SBOM shared common ground.</p>
 <div id="tab:deprec-throughput">
 <table>
-<caption><em>Deprec</em> Dependency Throughput. Unit: Dependencies per
-Minute; runMode: parallel; workers: 5. To be noted: only 50 random
-dependencies at max were run for each SBOM due to rate-limiting reasons,
-though multiple times to account for concurrency.</caption>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>project</strong></td>
@@ -2845,7 +2752,10 @@ though multiple times to account for concurrency.</caption>
 </tbody>
 </table>
 </div>
-<p>Summarizing <em>deprec</em>’s measured performance regarding <a
+<figcaption class='caption'><span class='id'>Table 6.1: </span><span class='content'><span class='cmti-10x-x-109'>Deprec </span>Dependency Throughput. Unit: Dependencies per Minute; runMode: parallel;
+workers: 5. To be noted: only 50 random dependencies at max were run for each SBOM due to
+rate-limiting reasons, though multiple times to account for concurrency.</span></figcaption>
+<p>Summarizing <em>deprec</em>’s measured performance regarding section <a
 href="#gc-and-uc" data-reference-type="ref"
 data-reference="gc-and-uc">3.1</a>, its performance was deemed as
 acceptable. Considering that API rate-limiting is the far greater threat
@@ -2873,7 +2783,7 @@ considered for nor contained in the evaluation set.</p>
 interpreting evaluation results about the accuracy of classifications
 and therefore the accuracy of <em>deprec</em> itself.</p>
 <h3 id="measuring-accuracy">Measuring Accuracy</h3>
-<p>Requirement states that though accuracy and success of
+<p>Requirement <a href="#out-of-scope">Out Of Scope</a> states that though accuracy and success of
 <em>deprec</em>’s classification results of dependencies take on a
 secondary role, the former has to be discussed to rule out misleading
 directions.</p>
@@ -2882,7 +2792,7 @@ accuracy, the following evaluation method is proposed:</p>
 <ol>
 <li><p>given a dependency <span class="math inline">\(d\)</span> in the
 evaluation set, it is pre-classified as one of the four categories
-described in <a href="#impl-gc" data-reference-type="ref"
+described in section <a href="#impl-gc" data-reference-type="ref"
 data-reference="impl-gc">5.1</a> labeled as <span
 class="math inline">\(C_{expected,d}\)</span>.</p></li>
 <li><p>dependency <span class="math inline">\(d\)</span> is then
@@ -2900,18 +2810,18 @@ possible probability possible for a category.</p></li>
 </ol>
 <p>With the above preparation applied for all <span
 class="math inline">\(n\)</span> dependencies in the evaluation set, the
-Mean Absolute Error (MAE) specified in <a href="#mse"
-data-reference-type="autoref" data-reference="mse">[mse]</a> is
+Mean Absolute Error (MAE) specified in Equation <a href="#mse"
+data-reference-type="ref" data-reference="mse">6.1</a> is
 computed.<br />
 <span class="math display">\[\label{mse}
-     MAE = \frac{1}{n} \sum_{i = 1}^{n} (error_{d_i})\]</span><br />
+     MAE = \frac{1}{n} \sum_{i = 1}^{n} (error_{d_i})\]</span>(6.1)<br />
 Though, since the MAE is not meaningful on its own, the percentages of
 how many dependencies have been <em>correctly</em> classified specified
-in <a href="#ratio" data-reference-type="autoref"
-data-reference="ratio">[ratio]</a> and <em>confident correctly</em>
-classified specified in <a href="#ratio-confident"
-data-reference-type="autoref"
-data-reference="ratio-confident">[ratio-confident]</a> are also
+in Equation <a href="#ratio" data-reference-type="ref"
+data-reference="ratio">6.3</a> and <em>confident correctly</em>
+classified specified in Equation <a href="#ratio-confident"
+data-reference-type="ref"
+data-reference="ratio-confident">6.4</a> are also
 considered. A dependency <span class="math inline">\(d\)</span> is
 defined as <em>correctly</em> classified if <span
 class="math inline">\(P_{C_{expected,d}}\)</span> is the highest
@@ -2921,17 +2831,17 @@ dependencies <span class="math inline">\(d\)</span> <em>correctly</em>
 classified are defined as <em>confident correctly</em> classified if
 their respective probability <span
 class="math inline">\(P_{C_{expected,d}}\)</span> is above a predefined
-confidence value. The confidence value is defined as specified in <a
-href="#confidence" data-reference-type="autoref"
-data-reference="confidence">[confidence]</a>.</p>
+confidence value. The confidence value is defined as specified in Equation <a
+href="#confidence" data-reference-type="ref"
+data-reference="confidence">6.2</a>.</p>
 <p><span class="math display">\[\label{confidence}
-     confidence = 0.75\]</span></p>
+     confidence = 0.75\]</span>(6.2)</p>
 <p><span class="math display">\[\label{ratio}
      N_{correct} = \frac{correctly\ classified\ dependencies}{total\
-dependencies}\]</span></p>
+dependencies}\]</span>(6.3)</p>
 <p><span class="math display">\[\label{ratio-confident}
      N_{correct,confident} = \frac{confident\ correctly\ classified\
-dependencies}{total\ dependencies}\]</span><br />
+dependencies}{total\ dependencies}\]</span>(6.4)<br />
 Given <span class="math inline">\(MAE\)</span>, <span
 class="math inline">\(N_{correct}\)</span> and <span
 class="math inline">\(N_{correct,confident}\)</span>, <em>deprec</em>
@@ -2950,39 +2860,45 @@ that the <span class="math inline">\(MAE\)</span> should correlate with
 class="math inline">\(N_{correct,confident}\)</span>.</p>
 <h4 id="results">Results</h4>
 <p>Elaborating further, based on the described evaluation method and
-applied to the evaluation set, the accuracy depicted in <a
-href="#fig:deprec_accuracy" data-reference-type="autoref"
-data-reference="fig:deprec_accuracy">[fig:deprec_accuracy]</a> for
-<em>deprec</em>’s classification results was evaluated using two
-configurations concerning weights utilized for the evaluation of
-<em>Statements</em>, <em>EOS Factors</em> and the combination of the
-latter (hereinafter referenced as <em>Combined</em>). <em>Evenly
-Weighted</em>, on the one hand, represents the evaluation configuration
-in which all, <em>Signals</em> or <em>Metrics</em> within
-<em>Statements</em>, <em>Statements</em> within <em>EOS Factors</em> and
-<em>EOS Factors</em> within <em>Combined</em> were weighted equally.
-<em>Suggestion</em>, on the other hand, represents the suggested
-weighting that was discovered by trial and error for best results<a
-href="#fn48" class="footnote-ref" id="fnref48"
-role="doc-noteref"><sup>48</sup></a>.</p>
+applied to the evaluation set, the accuracy depicted in Figure <a
+href="#fig:deprec_accuracy" data-reference-type="ref"
+data-reference="fig:deprec_accuracy">6.1</a> for <em>deprec</em>’s
+classification results was evaluated using two configurations concerning
+weights utilized for the evaluation of <em>Statements</em>, <em>EOS
+Factors</em> and the combination of the latter (hereinafter referenced
+as <em>Combined</em>). <em>Evenly Weighted</em>, on the one hand,
+represents the evaluation configuration in which all, <em>Signals</em>
+or <em>Metrics</em> within <em>Statements</em>, <em>Statements</em>
+within <em>EOS Factors</em> and <em>EOS Factors</em> within
+<em>Combined</em> were weighted equally. <em>Suggestion</em>, on the
+other hand, represents the suggested weighting that was discovered by
+trial and error for best results<a href="#fn48" class="footnote-ref"
+id="fnref48" role="doc-noteref"><sup>48</sup></a>.</p>
 <figure id="fig:deprec_accuracy">
+<p class='noindent'><img alt='                              Correct Classified
 
-<figcaption>Figure 11: <em>Deprec</em> Accuracy Evaluation for given
+               01234567891SE330075P0000000000uv9.15e0ge.5..rgn2743cel936esynttiWaoegnieghotfe DdepCeonndefindceinetsCorrect Classified
+
+
+
+
+0000000000100...........1234567894527 MAE
+' src='images/accuracy.svg' />
+</p>
+<figcaption>Figure 6.1: <em>Deprec</em> Accuracy Evaluation for given
 Configurations; N=56</figcaption>
 </figure>
 <h4 id="interpretation">Interpretation</h4>
-<p>Analyzing <a href="#fig:deprec_accuracy"
-data-reference-type="autoref"
-data-reference="fig:deprec_accuracy">[fig:deprec_accuracy]</a>, the
-following interpretations can be concluded: <strong>I</strong> with and
-<a href="#bias" data-reference-type="ref"
-data-reference="bias">6.3.1</a> in mind, the accuracy in terms of
-<em>correctly</em> classified dependencies evaluated for the suggested
-configuration is acceptable; <strong>II</strong> <em>Evenly
-Weighted</em> though functioning as a comparison for
-<em>Suggestion</em>, because of its disastrous confidence and its
-percentage of <em>correct</em> classified dependencies being slightly
-better than a coin flip, is of no use for further work. This
+<p>Analyzing Figure <a href="#fig:deprec_accuracy" data-reference-type="ref"
+data-reference="fig:deprec_accuracy">6.1</a>, the following
+interpretations can be concluded: <strong>I</strong> with <a href="#out-of-scope">Out Of Scope</a> and section <a
+href="#bias" data-reference-type="ref" data-reference="bias">6.3.1</a>
+in mind, the accuracy in terms of <em>correctly</em> classified
+dependencies evaluated for the suggested configuration is acceptable;
+<strong>II</strong> <em>Evenly Weighted</em> though functioning as a
+comparison for <em>Suggestion</em>, because of its disastrous confidence
+and its percentage of <em>correct</em> classified dependencies being
+slightly better than a coin flip, is of no use for further work. This
 circumstance was to be expected, as some <em>Statements</em> and <em>EOS
 Factors</em> are clearly more decisive than others. A blanket equal
 weighting is deemed as not beneficial and therefore to be excluded.
@@ -2996,7 +2912,7 @@ in its confidence by weighting, with which more profound research into
 weighting within <em>Statements</em>, <em>EOS Factors</em>, and
 <em>Combined</em> could be the subject of further work;
 <strong>IV</strong> based on <em>Evenly Weighted</em> alone though, it
-can be concluded that the theoretical concept proposed in <a
+can be concluded that the theoretical concept proposed in chapter <a
 href="#theoretic-basis" data-reference-type="ref"
 data-reference="theoretic-basis">2</a> to assess dependencies about
 their end-of-support status to classify them as the same leads into the
@@ -3014,10 +2930,10 @@ profound insights. Utilizing the same evaluation method as described
 prior, <span class="math inline">\(MAE\)</span>, <span
 class="math inline">\(N_{correct}\)</span> and <span
 class="math inline">\(N_{correct,confident}\)</span> were evaluated for
-each <em>EOS Factor</em> and <em>Statement</em> independently. <a
-href="#fig:deprec_accuracy_factors" data-reference-type="autoref"
-data-reference="fig:deprec_accuracy_factors">[fig:deprec_accuracy_factors]</a>
-depicts the evaluation on <em>EOS Factor</em> level.</p>
+each <em>EOS Factor</em> and <em>Statement</em> independently. Figure <a
+href="#fig:deprec_accuracy_factors" data-reference-type="ref"
+data-reference="fig:deprec_accuracy_factors">6.2</a> depicts the
+evaluation on <em>EOS Factor</em> level.</p>
 <p>Analyzing the same, the following insights can be generated:
 <strong>I</strong> as set forth above when describing the evaluation
 method, indeed a correlation between <span
@@ -3033,14 +2949,22 @@ correctly, the combination of the <em>EOS Factors</em> though improves
 the classification on the one hand in percentages of <em>correct</em>
 classified dependencies and on the other hand in confidence of doing so.
 It further proves that the approach to the problematic of end-of-support
-dependencies and especially the theoretical concept proposed in <a
+dependencies and especially the theoretical concept proposed in chapter <a
 href="#theoretic-basis" data-reference-type="ref"
 data-reference="theoretic-basis">2</a> leads into right
 directions.<br />
 </p>
 <figure id="fig:deprec_accuracy_factors">
+<p class='noindent'><img alt='                                          Correct Classified
+             CEInDCCS024681Poffteoiu00000emoeimrcp0rbrrtymupcitcumoeno-GnsrneniitttadnvtageeynecncteoesfdnDeespsendencies    Confident Correct Classified
 
-<figcaption>Figure 12: <em>Deprec</em> Accuracy Evaluation with
+
+
+
+
+000001M....A2468EMAE  ' src='images/accuracy_factors.svg' />
+</p>
+<figcaption>Figure 6.2: <em>Deprec</em> Accuracy Evaluation with
 Suggested Configuration; <em>EOS Factors</em> with <em>Combined</em> for
 Comparison; N=56</figcaption>
 </figure>
@@ -3050,10 +2974,9 @@ observed when analyzing <em>Statements</em> isolated. However, as this
 would lead to similar looking results and insights as before, this more
 profound evaluation will be excluded for brevity to be discussed in this
 work, but was nonetheless performed and can be found in <a
-href="#appendix:deprec_accuracy_statements"
-data-reference-type="autoref"
-data-reference="appendix:deprec_accuracy_statements">[appendix:deprec_accuracy_statements]</a>
-for completeness.</p>
+href="#appendix:deprec_accuracy_statements" data-reference-type="ref"
+data-reference="appendix:deprec_accuracy_statements">Appendix D</a> for
+completeness.</p>
 <h1 id="conclusion">Conclusion</h1>
 <p>In conclusion, this work has successfully addressed the research
 question of end-of-support within open-source dependencies regarding
@@ -3066,6 +2989,7 @@ informational use out of the end-of-support status of dependencies,
 dependencies, helping development teams and project management to reduce
 risk and expense by enhancing management capabilities and enabling more
 timely integration into their planning.<br />
+<p>
 The development and implementation of a technical concept was preceded
 by a theoretical concept. It was elaborated, to classify dependencies as
 end-of-support with an abstracted and constant methodology in a
@@ -3080,6 +3004,7 @@ concept and evaluating <em>Statements</em> and <em>EOS Factors</em> with
 data extracted from various data origins, dependencies are classified on
 an agent-based framework and a project-based approach by leveraging
 CycloneDX’s SBOMs.<br />
+<p>
 <em>Deprec</em> in line with its requirements achieves satisfactory
 accuracy and performance in classifying dependencies as end-of-support.
 It is easily integrated into different premises, rendering the overall
@@ -3127,12 +3052,39 @@ interface tool <em>deprec-cli</em>. Not considered and contrary to
 service. Implementing <em>deprec</em> into a service accepting requests
 to analyze dependencies would cover yet another premise and opportunity
 of integrating <em>deprec</em> into one’s workflow.</p>
-<h1 id="appendix:data-model"><em>Deprec</em> Data Model</h1>
+                                                                             
+</p>
+   <h2 class='likechapterHead'><a id='lof'></a>List of Figures</h2>
+   <div class='tableofcontents'><span class='lofToc'>2.1 <a href='#fig:eox-funnel'>End-Of-X Funnel</a></span><br /><span class='lofToc'>2.2 <a href='#fig:guiding_questions'>Guiding Questions</a></span><br /><span class='lofToc'>2.3 <a href='#fig:info-landscape'>Information Landscape of
+Dependencies by Categories</a></span><br /><span class='lofToc'>2.4 <a href='#fig:eos_abstr_framework'>The EOS Abstraction Framework: Utilizing
+<span class='cmti-10x-x-109'>EOS Factors</span></a></span><br /><span class='lofToc'>4.1 <a href='#fig:extraction'><span class='cmti-10x-x-109'>Deprec</span>: Extraction Phase</a></span><br /><span class='lofToc'>4.2 <a href='#fig:signals_and_metrics'>Exemplary <span class='cmti-10x-x-109'>Signals</span>(S)
+and <span class='cmti-10x-x-109'>Metrics</span>(M)</a></span><br /><span class='lofToc'>4.3 <a href='#agent'><span class='cmti-10x-x-109'>Agent</span>: In-Depth Look </a></span><br /><span class='lofToc'>4.4 <a href='#fig:top-level'>Top-Level Depiction of
+<span class='cmti-10x-x-109'>Deprec</span></a></span><br /><span class='lofToc'>5.1 <a href='#fig:afs-implemented'>Implemented <span class='cmti-10x-x-109'>Statements </span>and <span class='cmti-10x-x-109'>EOS Factors</span></a></span><br /><span class='lofToc'>5.2 <a href='#fig:activity-viz'><span class='cmti-10x-x-109'>Activity </span>Computing
+Targets</a></span><br /><span class='lofToc'>6.1 <a href='#fig:deprec_accuracy'><span class='cmti-10x-x-109'>Deprec </span>Accuracy Evaluation</a></span><br /><span class='lofToc'>6.2 <a href='#fig:deprec_accuracy_factors'><span class='cmti-10x-x-109'>Deprec </span>Detailed Accuracy
+Evaluation on <span class='cmti-10x-x-109'>EOS Factor </span>Level</a></span><br /><span class='lofToc'>A.1 <a href='#appendix:data-model'><span class='cmti-10x-x-109'>Deprec </span>Data Model</a></span><br /><span class='lofToc'>D.1 <a href='#appendix:deprec_accuracy_statements'><span class='cmti-10x-x-109'>Deprec</span>
+Detailed Accuracy Evaluation on <span class='cmti-10x-x-109'>Statement </span>Level</a></span><br />
+   </div>
+<!-- l. 142 --><p class='indent'>   <a id='likesection.3'></a><a id='x1-157001x3'></a><a id='Q1-1-178'></a>
+
+</p>
+   <h2 class='likechapterHead'><a id='lol'></a>List of Listings</h2>
+   <div class='tableofcontents'><a href='#lst:sbom-component'>4.1                                               CycloneDX SBOM Component
+Information</a><br class='newline' /><a href='#lst:extraction_result_data'>4.2                                 Exemplary Result of section 4.2</a><br class='newline' /><a href='#lst:cores-struct'>5.1                                 Cores Data Structure</a><br class='newline' /><a href='#lst:deprec-interface'>5.2                                 <span class='cmti-10x-x-109'>Deprec</span>: Interface</a><br class='newline' /><a href='#lst:deprec-cli-usage'>5.3                                 <span class='cmti-10x-x-109'>Deprec-cli </span>Usage</a><br class='newline' /><a href='#appendix:lst:deprec-config-extraction'>B.1                                <span class='cmti-10x-x-109'>Deprec </span>Configuration - Extraction</a><br class='newline' /><a href='#appendix:lst:deprec-config-cache'>B.2                                <span class='cmti-10x-x-109'>Deprec </span>Configuration - Cache</a><br class='newline' /><a href='#appendix:lst:deprec-config-eval1'>B.3                                <span class='cmti-10x-x-109'>Deprec </span>Configuration - Evaluation 1/2</a><br class='newline' /><a href='#appendix:lst:deprec-config-eval2'>B.4                                <span class='cmti-10x-x-109'>Deprec </span>Configuration - Evaluation 2/2</a><br class='newline' /><a href='#appendix:gitlab-integration'>C.1                                <span class='cmti-10x-x-109'>Deprec </span>GitLab CI Integration</a><br class='newline' />
+   </div>
+<!-- l. 138 --><p class='indent'>   <a id='likesection.2'></a><a id='x1-156001x2'></a><a id='Q1-1-176'></a>
+                                                                                    
+</p>
+   <h2 class='likechapterHead'><a id='lot'></a>List of Tables</h2>
+   <div class='tableofcontents'><span class='lotToc'>6.1 <a href='#tab:deprec-throughput'><span class='cmti-10x-x-109'>Deprec </span>Dependency Throughput</a></span><br />
+   </div>
+<!-- l. 146 --><p class='indent'>   <a id='likesection.4'></a><a id='x1-158001x4'></a><a id='Q1-1-180'></a>
+
+<h2 class='appendixHead'><span class='titlemark'>Appendix A</span><br /><a id='appendix:data-model'></a><span class='cmti-10x-x-109'>Deprec </span>Data Model</h2>
 <figure>
-<img src="images/datamodel-final.drawio.png" style="width:100.0%"/>
-<figcaption><em>Deprec</em> Data Model</figcaption>
+<img src="images/datamodel-final.drawio.png" />
+<figcaption class='caption'><span class='id'>Figure A.1: </span><span class='content'><span class='cmti-10x-x-109'>Deprec </span>Data Model</span></figcaption>
 </figure>
-<h1 id="appendix:deprec-config"><em>Deprec</em> Configuration</h1>
+<h2 class='appendixHead'><span class='titlemark'>Appendix B</span><br /><a id='appendix:deprec-config'></a><span class='cmti-10x-x-109'>Deprec </span>Configuration</h2>
 <div class="lstfloat">
 <div class="sourceCode" id="appendix:lst:deprec-config-extraction"
 data-language="json" data-frame="single"
@@ -3151,6 +3103,13 @@ class="sourceCode json"><code class="sourceCode json"><span id="appendix:lst:dep
 <span id="appendix:lst:deprec-config-extraction-11"><a href="#appendix:lst:deprec-config-extraction-11" aria-hidden="true" tabindex="-1"></a>            <span class="er">...</span></span>
 <span id="appendix:lst:deprec-config-extraction-12"><a href="#appendix:lst:deprec-config-extraction-12" aria-hidden="true" tabindex="-1"></a>    <span class="er">}</span></span></code></pre></div>
 </div>
+<figcaption class='caption'><span class='id'>List
+         of
+         Listings B.1:
+         </span><span class='content'><span class='cmti-10x-x-109'>Deprec</span>
+         Configuration
+         -
+         Extraction</span></figcaption>
 <div class="lstfloat">
 <div class="sourceCode" id="appendix:lst:deprec-config-cache"
 data-language="json" data-frame="single"
@@ -3168,6 +3127,13 @@ class="sourceCode json"><code class="sourceCode json"><span id="appendix:lst:dep
 <span id="appendix:lst:deprec-config-cache-10"><a href="#appendix:lst:deprec-config-cache-10" aria-hidden="true" tabindex="-1"></a>            <span class="er">...</span></span>
 <span id="appendix:lst:deprec-config-cache-11"><a href="#appendix:lst:deprec-config-cache-11" aria-hidden="true" tabindex="-1"></a>    <span class="er">}</span></span></code></pre></div>
 </div>
+<figcaption class='caption'><span class='id'>List
+         of
+         Listings B.2:
+         </span><span class='content'><span class='cmti-10x-x-109'>Deprec</span>
+         Configuration
+         -
+         Cache</span></figcaption>
 <div class="lstfloat">
 <div class="sourceCode" id="appendix:lst:deprec-config-eval1"
 data-language="json" data-frame="single"
@@ -3225,6 +3191,14 @@ class="sourceCode json"><code class="sourceCode json"><span id="appendix:lst:dep
 <span id="appendix:lst:deprec-config-eval1-50"><a href="#appendix:lst:deprec-config-eval1-50" aria-hidden="true" tabindex="-1"></a>            <span class="er">}</span></span>
 <span id="appendix:lst:deprec-config-eval1-51"><a href="#appendix:lst:deprec-config-eval1-51" aria-hidden="true" tabindex="-1"></a>    <span class="er">}</span></span></code></pre></div>
 </div>
+<figcaption class='caption'><span class='id'>List
+         of
+         Listings B.3:
+         </span><span class='content'><span class='cmti-10x-x-109'>Deprec</span>
+         Configuration
+         -
+         Evaluation
+         1/2</span></figcaption>
 <div class="sourceCode" id="appendix:lst:deprec-config-eval2"
 data-language="json" data-frame="single"
 data-caption="\textit{Deprec} Configuration - Evaluation 2/2"
@@ -3337,8 +3311,15 @@ class="sourceCode json"><code class="sourceCode json"><span id="appendix:lst:dep
 <span id="appendix:lst:deprec-config-eval2-106"><a href="#appendix:lst:deprec-config-eval2-106" aria-hidden="true" tabindex="-1"></a>                <span class="er">}</span></span>
 <span id="appendix:lst:deprec-config-eval2-107"><a href="#appendix:lst:deprec-config-eval2-107" aria-hidden="true" tabindex="-1"></a>            <span class="er">}</span></span>
 <span id="appendix:lst:deprec-config-eval2-108"><a href="#appendix:lst:deprec-config-eval2-108" aria-hidden="true" tabindex="-1"></a>    <span class="er">}</span></span></code></pre></div>
-<h1 id="appendix:gitlab-integration"><em>Deprec</em> GitLab CI
-Integration</h1>
+<figcaption class='caption'><span class='id'>List
+         of
+         Listings B.4:
+         </span><span class='content'><span class='cmti-10x-x-109'>Deprec</span>
+         Configuration
+         -
+         Evaluation
+         2/2</span></figcaption>
+<h2 class='appendixHead'><span class='titlemark'>Appendix C</span><br /><a id='appendix:gitlab-integration'></a><span class='cmti-10x-x-109'>Deprec </span>GitLab CI Integration</h2>
 <div class="lstfloat">
 <pre data-breaklines="true" style="yaml" data-escapeinside="``"
 data-frame="single" data-caption="\textit{Deprec} GitLab CI Integration"
@@ -3371,16 +3352,28 @@ analyze-sbom:
     - ./deprec-cli_Linux_x86_64 --config deprec.config.json --runMode parallel target/bom.json
   artifacts:
     paths:
-      - deprec-output.txt</code></pre>
+      - deprec-output.csv</code></pre>
+<figcaption class='caption'><span class='id'>List
+          of
+          Listings C.1:
+          </span><span class='content'><span class='cmti-10x-x-109'>Deprec</span>
+          GitLab
+          CI
+          Integration</span></figcaption>
 </div>
-<h1 id="appendix:deprec_accuracy_statements"><em>Deprec</em> Accuracy
-Evaluation on <em>Statement</em> Level</h1>
-<figure>
+<h2 class='appendixHead'><span class='titlemark'>Appendix D</span><br /><a id='appendix:deprec_accuracy_statements'></a><span class='cmti-10x-x-109'>Deprec </span>Accuracy Evaluation on <span class='cmti-10x-x-109'>Statement </span>Level</h2>
+<p class='noindent'><img alt='                                          Correct Classified
+             CNPPRABEPLCMPRVP024681Poeoaecanricoariur00000emtprctcgeerrovlo0rbwuteivkasnekcanjciolicniugtisielreeenraittpegiTnsyrctnekrpnymenegsiaQtaditaeeganbugytsnmgilaeiostilntiioetfsyDependencies    Confident Correct Classified
 
-<figcaption><em>Deprec</em> Accuracy Evaluation with Suggested
-Configuration; <em>Statements</em> with <em>Combined</em> for
-Comparison; N=56</figcaption>
-</figure>
+
+
+
+000001M....A2468EMAE  ' src='images/accuracy_statements.svg' />
+</p>
+<figcaption class='caption'><span class='id'>Figure D.1:  </span><span class='content'><span class='cmti-10x-x-109'>Deprec  </span>Accuracy  Evaluation  with  Suggested  Configuration;  <span class='cmti-10x-x-109'>Statements  </span>with
+<span class='cmti-10x-x-109'>Combined </span>for Comparison; N=56</span></figcaption>
+
+<h1 id="bibliography">Bibliography</h1>
 <div id="refs" class="references csl-bib-body hanging-indent"
 role="list">
 <div id="ref-bogart_when_2015" class="csl-entry" role="listitem">
